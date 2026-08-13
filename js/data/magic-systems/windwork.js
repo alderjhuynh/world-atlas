@@ -3,7 +3,7 @@ window.WORLD_DATA["magic-systems"].push(
     id: "windwork",
     title: "Windwork",
     subtitle: "The Wind-Craft of the Witchlands",
-    summary: "The magical tradition of the Witchlands: no ley-lines, no kyrite, no stored reserve. Ambient charge rides the moving air, and a caster shapes it with trained breath, drawing on a single premise — that magic in the Witchlands behaves exactly like the weather, because it is the weather.",
+    summary: "The magical tradition of the Witchlands: Ambient charge rides the moving air, and a caster shapes it with trained breath. Magic in the Witchlands behaves exactly like the weather, because it is the weather.",
     tags: ["witchlands", "windwork", "breath groups", "four-phase cycle", "storm-work", "the Veil", "bow-singing"],
     // coverImage: "assets/images/windwork.jpg",
 
