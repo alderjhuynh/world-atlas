@@ -3,7 +3,7 @@ window.WORLD_DATA.continents.push(
     id: "shattered-reach",
     title: "The Shattered Reach",
     subtitle: "The Broken Continent",
-    summary: "Formerly the single landmass of Vhonoris, now a scattered archipelago of several thousand islands, skerries, and half-drowned peaks in the world's southeastern sea, torn apart a few generations ago by the magical catastrophe called the Sundering.",
+    summary: "Formerly the single landmass of Vhonoris, now a scattered archipelago of several thousand islands, skerries, and half-drowned peaks in the world's southwestern sea, torn apart a few generations ago by the magical catastrophe called the Sundering.",
     tags: ["archipelago", "the Sundering", "wild water", "monsoon", "floating markets", "post-cataclysm", "southeastern sea"],
     // coverImage: "assets/images/shattered-reach.jpg",
 
