@@ -188,5 +188,217 @@ WIND-daughter-ERG WIND-storm-OBJ  rise-EVID.WIND  GRASS-windward
 
 Note what this single breath group commits the speaker to, in a language where the storm itself and the person sensing it are both, grammatically, creatures of the same Wind class:
 - **-ir** on *auraea*: she is the transitive subject, acting on the storm by perceiving it, not merely a passerby it happens near.
-- **-kho**, in breathy voice: the speaker (whether *auraea* herself or someone reporting on her) is asserting this as a magically sensed fact, not something seen or heard secondhand — the claim a working caster's whole reputation is built on being right about.
+- **-kho**, in breathy voice: the speaker (whether *auraea* herself or someone reporting on her) is asserting this as a magically sensed fact, not something seen or heard secondhand, the claim a working caster's whole reputation is built on being right about.
 - **-tai**: the storm is windward, oriented against the current air, which any Witchlander hearing this sentence will immediately understand as "coming, and coming toward us," without a single word of the sentence needing to say so directly.
+
+---
+
+## 9. Pronouns
+ 
+Person is tracked on the verb by proclitics, but Aurathil also has independent pronouns, used for emphasis, for any case other than absolutive, and whenever the subject needs to be stated rather than dropped.
+ 
+| Person | Absolutive | Ergative | Object | Genitive |
+|---|---|---|---|---|
+| 1sg | *na* | *nair* | *nam* | *naso* |
+| 2sg | *ta* | *tair* | *tam* | *taso* |
+| 3sg | *ki* (generic) | *kir* | *kim* | *kiso* |
+| 1pl | *nala* | *nalair* | *nalam* | *nalaso* |
+| 2pl | *tala* | *talair* | *talam* | *talaso* |
+| 3pl | *kila* | *kilair* | *kilam* | *kilaso* |
+ 
+Third-person pronouns are rarely used on their own; speakers overwhelmingly prefer a class-prefixed noun or the echoed class prefix already built into third-person verb agreement. Using bare *ki-* forms instead of a class-marked noun can sound faintly rude, as though the speaker can't be bothered to specify what kind of thing they're talking about.
+ 
+There is no distinct polite/familiar pronoun split. Respect is marked instead through the epithet and naming system: using someone's earned epithet rather than their hearth-name *is* the polite register.
+ 
+---
+ 
+## 10. Numerals
+ 
+Witchlands counting is built on the hand and the herd, not on an abstract base.
+ 
+| Value | Aurathil | Literal sense |
+|---|---|---|
+| 1 | *soh* | - |
+| 2 | *tuo* | - |
+| 3 | *kir* | - |
+| 4 | *pan* | - |
+| 5 | *lu* | "hand" |
+| 6 | *lusoh* | hand-and-one |
+| 7 | *lutuo* | hand-and-two |
+| 8 | *lukir* | hand-and-three |
+| 9 | *lupan* | hand-and-four |
+| 10 | *duel* | "two hands," also colloquially "a full count" |
+| 20 | *dulu* | "a herd's worth" |
+| 100 | *duombo* | "a great herd" |
+ 
+Above ten, Aurathil counts by adding onto *duel*: *duel-lu-soh* = "ten and one hand and one" = 16. This is exact but cumbersome, and in practice most speakers give large quantities as an approximation (*du-* + adjective) rather than a precise numeral, "many-herd" rather than an exact count, unless the number genuinely matters, as in a bride-price or a truce's terms, where *ra-* (Word class, §2) demands precision.
+ 
+Numerals precede the noun they count and take no class prefix of their own; they agree with nothing.
+ 
+---
+ 
+## 11. Negation, Questions, and Commands
+ 
+### Negation
+ 
+Aurathil negates with the preverbal particle **ne=**, cliticized directly to the verb, ahead of the person proclitic: *ne=n-et-kho*, "I do not sense it rising." Negation and the wind-sensed evidential combine freely and are not considered contradictory; a caster can quite ordinarily assert *ne=kho*, "I've checked the wind for it, and it isn't there," which is treated as a real perceptual claim in its own right, not merely an absence of one.
+ 
+Nouns are negated with the particle *sa-*, prefixed before the class prefix: *sa-au-* , "no wind at all, dead calm," is a mildly ominous thing to say in a culture that navigates and casts by moving air.
+ 
+### Yes/No Questions
+ 
+Questions attach at the **breath-group edge**. The question particle **-a** closes the breath group: *duru-set-kho-a?*, "is the storm rising (do you sense it)?" Because -a occupies the same structural slot as the phrase-final glottal stop, a fast or careless speaker can blur a statement into a question, which is one of the more common mistakes learners make.
+ 
+### Content Questions
+ 
+Question words are themselves class-prefixed nouns, matching whatever they're asking about, rather than a single invariant "what/who":
+ 
+| Aurathil | Class | Asks about |
+|---|---|---|
+| *au-i* | Wind | what (invisible/abstract thing) |
+| *sae-i* | Grass | where, what place |
+| *du-i* | Herd | which animal, how much wealth |
+| *ve-i* | Blood | who (what person, by kinship) |
+| *ra-i* | Word | what was said, what's the agreement |
+ 
+Asking *ra-i ki-san-us?*, "what did they say (report-evidential)?" is grammatically distinct from *ve-i ki-san-us?*, "who said it?". The first questions the content of speech, the second the speaker.
+ 
+### Commands
+ 
+Two imperative suffixes exist, and casters are trained early to keep them straight, since the difference matters mid-working:
+ 
+| Suffix | Force | Use |
+|---|---|---|
+| **-ta** | direct command | ordinary instruction: "hold it," "say it now" |
+| **-tan** | soft/requested command | courteous asks, and commands issued to a working itself |
+ 
+Speaking *-ta* to a spell in progress, rather than *-tan*, is considered a rookie's mistake: a working is conventionally addressed with the softer form, on the folk-logic that wind, like a person, resists being ordered around and responds better to a request. Experienced casters will tell you this is superstition. They use *-tan* anyway.
+ 
+---
+ 
+## 12. Derivation Beyond Class-Swapping and Descent
+ 
+Two further productive affixes round out everyday word-formation, alongside class-swap and the descent/epithet suffixes:
+ 
+- **-tu**, agentive: root + *-tu* names someone who does a thing as a matter of ordinary trade or habit, with none of the earned, conferred prestige of a descent-epithet. *Dua-set-tu*, roughly "herder," is simply a job; *dunarea*, "daughter of the drove," is a reputation. A coven can have several *dua-set-tu* and, at most, one living *dunarea* at a time.
+- **-om** / **-ik**, augmentative and diminutive: *-om* marks something great, mighty, or severe (*au-dur-om*, "a truly great storm"); *-ik* marks something small or dear (*ve-en-ik*, "little one," an affectionate term for a young child, also used between close friends).
+---
+ 
+## 13. Greetings and Common Social Formulas
+ 
+Witchlands social speech is short and breath-group-bound, in keeping with the general prosody (§1). A few fixed formulas cover most daily encounters:
+ 
+| Aurathil | Literal sense | Used for |
+|---|---|---|
+| *Au sao tan* | "wind favor you" | general greeting, any time of day |
+| *Sae kai-ni* | "grass at your lee-side" | greeting someone traveling, wishing them shelter from weather |
+| *Ra taso ol* | "your word stands" | acknowledging a promise or deal as settled |
+| *Vem naso* | "of my blood" (contracted from *ve-m na-so*) | said to welcome someone formally into a coven, not necessarily kin by birth |
+| *Ne au* | "no wind [between us]" | a stock phrase at waystations, roughly "I mean no trouble here" |
+| *Kho sao* | "[I] sense you well" | a caster's informal check-in with another caster; asking after someone's magical, not just physical, state |
+ 
+---
+ 
+## 14. Daily-Use Dictionary
+ 
+Entries are grouped by domain and marked with their noun class prefix (Wind *au-*, Grass *sae-*, Herd *du-*, Blood *ve-*, Word *ra-*) where relevant. Verb roots are given bare, ready to take person, evidential, and aspect marking as in.
+ 
+### People and Coven Life
+ 
+| Aurathil | Class | Gloss |
+|---|---|---|
+| *ve-lo* | Blood | person, one of the coven |
+| *ve-tar* | Blood | elder, respected senior member |
+| *ve-en* | Blood | child |
+| *ve-set* | Blood | stranger, outsider (lit. "unsettled kin") |
+| *sil-tu* | - | one skilled at concealment (agentive, not epithet) |
+| *aur-tu* | - | an ordinary caster; any practitioner, unranked |
+| *sae-kem* | Grass | camp, campsite |
+| *sae-ked* | Grass | territory, range held by a coven |
+ 
+### Weather and Sky
+ 
+| Aurathil | Class | Gloss |
+|---|---|---|
+| *au-dur* | Wind | storm |
+| *au-set* | Wind | breeze, light wind |
+| *au-gash* | Wind | gale, violent wind |
+| *au-nel* | Wind | cloud |
+| *au-vash* | Wind | rain |
+| *au-tho* | Wind | lightning |
+| *au-dun* | Wind | a "spirit-migration"; a restless, ghost-bearing storm-front |
+| *sae-fol* | Grass | dry season |
+| *sae-vel* | Grass | wet season |
+ 
+### Animals, Trade, and Wealth
+ 
+| Aurathil | Class | Gloss |
+|---|---|---|
+| *du-set* | Herd | livestock generally |
+| *du-ren* | Herd | horse |
+| *du-mel* | Herd | herd-dog |
+| *du-kash* | Herd | wild game |
+| *du-vo* | Herd | wealth, goods held |
+| *du-tra* | Herd | trade-good, item for barter |
+ 
+### Words, Oaths, and Standing
+ 
+| Aurathil | Class | Gloss |
+|---|---|---|
+| *ra-vo* | Word | oath, sworn promise |
+| *ra-nem* | Word | name |
+| *ra-kel* | Word | dispute, quarrel |
+| *ra-sol* | Word | truce |
+| *ra-du* | Word | reputation, standing |
+| *ra-set* | Word | rumor, unverified report |
+ 
+### Time
+ 
+| Aurathil | Gloss |
+|---|---|
+| *ol-ni* | now |
+| *us-ni* | earlier, already past |
+| *et-ni* | soon, about to begin |
+| *saeni* | "here"; combines with case suffixes for time-distance, as in *saeni-tai osad*, "three days windward" (§4) |
+| *duel-ash* | a full day-and-night cycle (lit. "ten [hours]-gusting") |
+ 
+### Common Verbs
+ 
+| Root | Gloss |
+|---|---|
+| *dun-* | to move as a body, migrate (§2) |
+| *set-* | to rise, begin, stand |
+| *kho-* | to sense (wind-sensed, magically) |
+| *sao-* | to favor, to be well-disposed toward |
+| *vo-* | to hold, to possess, to owe |
+| *kel-* | to dispute, to contest |
+| *tra-* | to trade, to exchange |
+| *ked-* | to hold territory, to range |
+| *nem-* | to name, to call by name |
+ 
+### Basic Adjectives
+ 
+Adjectives follow the noun they modify (§6) and are not class-marked themselves.
+ 
+| Aurathil | Gloss |
+|---|---|
+| *gash* | strong, violent |
+| *set* | new, rising, fresh |
+| *us* | old, spent, faded |
+| *kai* | sheltered, calm |
+| *tai* | exposed, into the weather |
+| *om* | great, mighty (see also augmentative, §12) |
+| *ik* | small, dear (see also diminutive, §12) |
+ 
+---
+ 
+## 15. A Second Worked Example
+ 
+**"My word stands; no trouble here."** (a stock waystation phrase)
+ 
+```
+Ra-naso-∅        ol-kho        ʔ    ne-au
+WORD-my-ABS       stand-EVID.WIND        NEG-wind
+```
+ 
+*Literal sense:* "My word (is, as far as I can tell,) standing; there's no wind [of trouble] here."
