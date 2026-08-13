@@ -24,7 +24,7 @@ It has no throne behind it, no scriptorium, no grammarian's academy. It has inst
 ### Consonants
 
 | | Labial | Alveolar | Palatal | Velar | Glottal |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | Stop | p b | t d | | k g | ʔ |
 | Nasal | m | n | | ŋ | |
 | Fricative | f | s | | | h |
