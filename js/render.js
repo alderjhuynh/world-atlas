@@ -72,6 +72,59 @@ function mountFooter() {
       <p>${window.WORLD_CONFIG.siteName}</p>
     </footer>
   `;
+  initFooterEasterEgg(el.querySelector(".site-footer"));
+}
+
+// A tiny easter egg: clicking the footer sends out a soft ripple
+// and a scatter of little brass sparkles from the click point.
+function initFooterEasterEgg(footer) {
+  if (!footer) return;
+
+  const SPARKLE_SVG = `<svg viewBox="0 0 24 24"><path d="M12 0l2.2 8.1L22 12l-7.8 3.9L12 24l-2.2-8.1L2 12l7.8-3.9L12 0z"/></svg>`;
+
+  footer.addEventListener("click", (e) => {
+    const rect = footer.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    // Ripple
+    const ripple = document.createElement("span");
+    ripple.className = "footer-ripple";
+    const size = Math.max(rect.width, rect.height) * 0.9;
+    ripple.style.left = `${x}px`;
+    ripple.style.top = `${y}px`;
+    ripple.style.width = `${size}px`;
+    ripple.style.height = `${size}px`;
+    footer.appendChild(ripple);
+    ripple.addEventListener("animationend", () => ripple.remove());
+
+    // Sparkles
+    const count = 6 + Math.floor(Math.random() * 3);
+    for (let i = 0; i < count; i++) {
+      const sparkle = document.createElement("span");
+      sparkle.className = "footer-sparkle";
+      sparkle.innerHTML = SPARKLE_SVG;
+
+      const angle = (Math.PI * 2 * i) / count + Math.random() * 0.6;
+      const distance = 22 + Math.random() * 34;
+      const sx = Math.cos(angle) * distance;
+      const sy = Math.sin(angle) * distance - 8; // slight upward drift
+      const scale = 0.6 + Math.random() * 0.9;
+      const rot = Math.random() * 180 - 90;
+      const delay = Math.random() * 80;
+
+      sparkle.style.left = `${x}px`;
+      sparkle.style.top = `${y}px`;
+      sparkle.style.setProperty("--sx", `${sx}px`);
+      sparkle.style.setProperty("--sy", `${sy}px`);
+      sparkle.style.setProperty("--sscale", scale.toFixed(2));
+      sparkle.style.setProperty("--srot", `${rot}deg`);
+      sparkle.style.animationDelay = `${delay}ms`;
+
+      footer.appendChild(sparkle);
+      sparkle.addEventListener("animationend", () => sparkle.remove());
+    }
+  });
 }
 
 function renderCollectionsGrid() {

@@ -536,4 +536,68 @@ button:focus-visible {
   text-align: center;
   font-size: 0.8rem;
   color: var(--ink-faint);
+  position: relative;
+  overflow: hidden;
+  cursor: default;
+}
+
+/* ---- footer easter egg: ripple + sparkles ---- */
+.footer-ripple {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0);
+  background: radial-gradient(circle, rgba(201, 154, 79, 0.35) 0%, rgba(201, 154, 79, 0.12) 45%, rgba(201, 154, 79, 0) 70%);
+  border: 1px solid rgba(169, 121, 63, 0.35);
+  animation: footer-ripple-expand 700ms ease-out forwards;
+}
+
+@keyframes footer-ripple-expand {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+  }
+}
+
+.footer-sparkle {
+  position: absolute;
+  pointer-events: none;
+  width: 6px;
+  height: 6px;
+  color: var(--brass-bright);
+  transform: translate(-50%, -50%) scale(0) rotate(0deg);
+  animation: footer-sparkle-pop 800ms ease-out forwards;
+}
+
+.footer-sparkle svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  fill: currentColor;
+}
+
+@keyframes footer-sparkle-pop {
+  0% {
+    transform: translate(-50%, -50%) scale(0) rotate(0deg);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(calc(-50% + var(--sx)), calc(-50% + var(--sy))) scale(var(--sscale)) rotate(var(--srot));
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .footer-ripple,
+  .footer-sparkle {
+    animation: none;
+    display: none;
+  }
 }
