@@ -3,7 +3,7 @@ window.WORLD_DATA["bestiary"].push(
     id: "medicinal-flora",
     title: "Medicinal Flora",
     subtitle: "Herbcraft of the Four Continents",
-    summary: "No single continent's herbcraft resembles another's, since each tradition grew up treating the specific damage its own local magic does to a body — from emberfern against stonelung to marshwick against the Mist.",
+    summary: "No single continent's herbcraft resembles another's, since each tradition grew up treating the specific damage its own local magic does to a body, from emberfern against stonelung to marshwick against the Mist.",
     tags: ["medicinal flora", "herbs", "remedies", "the Kyrai", "Vaelmourn", "the Witchlands", "the Shattered Reach"],
 
     sections: [
