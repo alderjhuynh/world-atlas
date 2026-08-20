@@ -16,6 +16,7 @@ const INDEX_FILE = path.join(DATA_DIR, "index.js");
 const COLLECTION_BY_FOLDER = {
   bestiary: "bestiary",
   continents: "continents",
+  cosmologies: "cosmologies",
   history: "history",
   kingdoms: "kingdoms",
   languages: "languages",
@@ -27,6 +28,7 @@ const COLLECTION_BY_FOLDER = {
 // "calendars" entry was renamed "Reckoning" in the vault, so it moves to
 // history/reckoning.js.
 const TITLE_TO_ID = {
+  "Vaelkin": "vaelkin",
   "Medicinal Flora": "medicinal-flora",
   "The Dye-Flowers of the Vosarai": "vosarai-dyeflowers",
   "Kharsa, the Sunward March": "kharsa",
@@ -70,6 +72,27 @@ const SECTION_ALIASES = {
 // Hand-written metadata for brand-new entries (the vault carries no
 // summary/tags/subtitle, only body text).
 const NEW_META = {
+  vaelkin: {
+    subtitle: "The Doctrine of the Dead God",
+    summary:
+      "Not a church or a single creed but the way the peoples of Vaelmourn belong to their dead god: the working conviction that Vaelkyr is not a myth explaining the continent so much as a still-present party to everything that happens on it. Doctrine kept unsettled on purpose — Wound, Lying-Down, and Emptying at once; Presence and Relic held together; the Choir deliberately weak — and made concrete in the Listening, ichor as sacrament, the Hollow, and the Serevain's Shroud and Climb.",
+    tags: [
+      "Vaelkin",
+      "Vaelmourn",
+      "Vaelkyr",
+      "the Choir",
+      "the Listening",
+      "ichor",
+      "the Hollow",
+      "Presence doctrine",
+      "Relic doctrine",
+      "the Serevain",
+      "the Shroud",
+      "the Climb",
+      "cosmology",
+      "religion",
+    ],
+  },
   "the-sundering": {
     subtitle: "The Shattering of Vhonoris",
     summary:
