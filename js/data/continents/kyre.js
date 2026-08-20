@@ -1,17 +1,20 @@
-window.WORLD_DATA.continents.push(
+window.WORLD_DATA["continents"].push(
 {
     id: "kyre",
     title: "Kyre",
     subtitle: "The Continent of Beasts",
     summary: "A temperate, densely forested continent in the world's east, native home of the Kyrai, and the source of kyrite, the magic-bearing mineral that foreign powers now hold its coasts to extract under colonial administration.",
-    tags: ["kyrite", "manastone", "the Kyrai", "lineages", "occupation", "slavery", "the free interior", "eastern continent"],
-    // coverImage: "assets/images/kyre.jpg",
+    tags: ["kyrite","manastone","the Kyrai","lineages","occupation","slavery","the free interior","eastern continent"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
-**Kyre**, the native name for the continent, its peoples, and its language alike, used the same way by the **Kyrai** who have always lived there. Called, by the various foreign powers that now hold its coasts, **the Continent of Beasts**, deliberately never anything more formal than that; a name is, in the reasoning of most of the occupying powers, a courtesy owed to a nation, and by their own official position, Kyre has never had one. The continent's other defining feature, a magic-dense crystalline mineral the Kyrai call **kyrite**, is known abroad almost exclusively by its trade name, **manastone**, a term chosen, deliberately, to describe the substance without describing the place or people it comes from.
+**Kyre**, the native name for the continent, its peoples, and its language alike, used the same way by the **Kyrai** who have always lived there. Called, by the various foreign powers that now hold its coasts, **the Continent of Beasts**, deliberately never anything more formal than that; a name is, in the reasoning of most of the occupying powers, a courtesy owed to a nation, and by their own official position, Kyre has never had one. The continent's other defining feature, a magic-dense crystalline mineral the Kyrai call **[kyrite](entry.html?c=magic-systems&id=kyrite)**, is known abroad almost exclusively by its trade name, **manastone**, a term chosen, deliberately, to describe the substance without describing the place or people it comes from.
+
+Kyre is a temperate, densely forested continent in the world's east, its interior dominated by old-growth woodland, broken uplands, and a long central mountain spine, the **Kyresh Range**, riddled with the mineral deposits that give the continent its second, more famous name abroad. Rainfall is heavy and seasonal, rivers numerous, and the coastline is a mix of natural deep-water harbors and mangrove shallows, a combination that made the continent, from the first foreign ships to reach it, an unusually easy place to land, and an unusually hard one to leave once its resources became known.
+
+Kyrite deposits run through the Kyresh Range and its foothills in visible, sometimes surface-exposed seams, glowing faintly even unworked, a fact that made Kyre's mineral wealth obvious to outside prospectors within a single generation of first contact, long before anyone bothered to properly document who already lived there, or ask them.
         `
       },
       {
@@ -114,7 +117,15 @@ Kyrite's value has made Kyre's occupation immensely profitable for the handful o
 
 Nowhere is any of this framed, on the Kyrai side, as an open question at all.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [Kyrite and Kinwork](entry.html?c=magic-systems&id=kyrite): Kyrite and Kinwork covers the mineral and the Kyrai craft tradition in depth
+- [The Crown](entry.html?c=kingdoms&id=the-crown): The occupying colonial powers on Kyre's coast operate under Crown-style extraction economics
+- [Weaving](entry.html?c=magic-systems&id=weaving): Weavers and Kyrai artisans are among the few traditions that work well with kyrite together
+        `
+      },
     ]
   }
 );

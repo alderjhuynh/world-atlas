@@ -1,17 +1,16 @@
-window.WORLD_DATA.languages.push(
+window.WORLD_DATA["languages"].push(
 {
     id: "aurathil",
     title: "Aurathil",
     subtitle: "The Windtongue",
     summary: "The shared ritual and trade language of the Witchlands covens, spoken with wildly varying fluency across nearly every coven. Ergative with five noun classes, a breathy-voiced wind-sensed evidential, and aspect modeled on the behavior of wind instead of tense.",
-    tags: ["witchlands", "ergative", "evidentiality", "noun classes", "breathy voice"],
-    // coverImage: "assets/images/aurathil.jpg",
+    tags: ["witchlands","ergative","evidentiality","noun classes","breathy voice"],
 
     sections: [
       {
         heading: "Overview & Cultural Background",
         markdown: `
-**Aurathil**, "the Windtongue" or "the Casting Tongue" in Common Language. Not any single coven's cradle-speech, but the shared ritual and trade language spoken, with wildly varying fluency, by nearly every coven across the Witchlands. From *aura* "wind, spirit" + *-thil* "tongue, speech."
+**Aurathil**, "the Windtongue" or "the Casting Tongue" in [Common Language](entry.html?c=languages&id=common). Not any single coven's cradle-speech, but the shared ritual and trade language spoken, with wildly varying fluency, by nearly every coven across [the Witchlands](entry.html?c=continents&id=the-witchlands). From *aura* "wind, spirit" + *-thil* "tongue, speech."
 
 No coven raises its children on Aurathil first. Every coven has its own hearth-dialect, often barely intelligible to the coven three valleys over, and the Witchlands has never had, and by most local accounts never wanted, an institution capable of flattening that variation into a single national language. Aurathil is not that kind of language. It is what grew, over centuries of covens crossing paths on the wind-roads, trading, dueling, marrying, and above all *casting* in each other's presence, out of sheer practical necessity: a spellcaster who mishears a working's key word doesn't just misunderstand a sentence, they can mis-cast it, and a grassland with no formal schools to standardize magical training badly needed *some* shared vocabulary precise enough to cast by. Aurathil is that vocabulary, expanded, over generations of contact, into a full second language that most Witchlanders speak reasonably well and every serious spellcaster speaks fluently, regardless of what they spoke first at their mother's fire.
 
@@ -152,7 +151,7 @@ Like several of its neighbors, Aurathil grammaticalizes aspect over tense; tense
 | **Falling** (completive-with-fading) | -us | completed, and dying down |
 | **Still** (habitual/stative) | -ol | background truth, calm, the resting state |
 
-A working "is being cast" takes **Gusting**; a working that "has been cast and finished" takes **Falling**, with the same connotation of decline baked in that Vosarin's Wilting aspect carries for a treaty. Aurathil speakers, like their coastal cousins to the north, have no way to say a thing is simply, neutrally over. It either finished mid-storm and is now dying away, or it never really got going, and the two are not interchangeable.
+A working "is being cast" takes **Gusting**; a working that "has been cast and finished" takes **Falling**, with the same connotation of decline baked in that [Vosarin](entry.html?c=languages&id=vosarin)'s Wilting aspect carries for a treaty. Aurathil speakers, like their coastal cousins to the north, have no way to say a thing is simply, neutrally over. It either finished mid-storm and is now dying away, or it never really got going, and the two are not interchangeable.
 
 ### Person Marking
 
@@ -186,15 +185,16 @@ There is no such thing as a fully standard Aurathil, and no institution exists, 
         markdown: `
 **"The daughter of the winds felt the storm rising, off in the distance." (wind-sensed, inceptive)**
 
-    Aura-ea-ir       au-dur-m        et-kho          sae-tai
-    WIND-daughter-ERG WIND-storm-OBJ  rise-EVID.WIND  GRASS-windward
+\`\`\`
+Aura-ea-ir       au-dur-m        et-kho          sae-tai
+WIND-daughter-ERG WIND-storm-OBJ  rise-EVID.WIND  GRASS-windward
+\`\`\`
 
 *Literal sense:* "Wind's-daughter (subject) storm (object) is-rising-[I-sense-it-on-the-wind], out windward-of-here."
 
 Note what this single breath group commits the speaker to, in a language where the storm itself and the person sensing it are both, grammatically, creatures of the same Wind class:
-
 - **-ir** on *auraea*: she is the transitive subject, acting on the storm by perceiving it, not merely a passerby it happens near.
-- **-kho**, in breathy voice: the speaker (whether *auraea* herself or someone reporting on her) is asserting this as a magically sensed fact, not something seen or heard secondhand — the claim a working caster's whole reputation is built on being right about.
+- **-kho**, in breathy voice: the speaker (whether *auraea* herself or someone reporting on her) is asserting this as a magically sensed fact, not something seen or heard secondhand, the claim a working caster's whole reputation is built on being right about.
 - **-tai**: the storm is windward, oriented against the current air, which any Witchlander hearing this sentence will immediately understand as "coming, and coming toward us," without a single word of the sentence needing to say so directly.
         `
       },
@@ -202,7 +202,7 @@ Note what this single breath group commits the speaker to, in a language where t
         heading: "Pronouns",
         markdown: `
 Person is tracked on the verb by proclitics, but Aurathil also has independent pronouns, used for emphasis, for any case other than absolutive, and whenever the subject needs to be stated rather than dropped.
-
+ 
 | Person | Absolutive | Ergative | Object | Genitive |
 |---|---|---|---|---|
 | 1sg | *na* | *nair* | *nam* | *naso* |
@@ -211,9 +211,9 @@ Person is tracked on the verb by proclitics, but Aurathil also has independent p
 | 1pl | *nala* | *nalair* | *nalam* | *nalaso* |
 | 2pl | *tala* | *talair* | *talam* | *talaso* |
 | 3pl | *kila* | *kilair* | *kilam* | *kilaso* |
-
+ 
 Third-person pronouns are rarely used on their own; speakers overwhelmingly prefer a class-prefixed noun or the echoed class prefix already built into third-person verb agreement. Using bare *ki-* forms instead of a class-marked noun can sound faintly rude, as though the speaker can't be bothered to specify what kind of thing they're talking about.
-
+ 
 There is no distinct polite/familiar pronoun split. Respect is marked instead through the epithet and naming system: using someone's earned epithet rather than their hearth-name *is* the polite register.
         `
       },
@@ -221,7 +221,7 @@ There is no distinct polite/familiar pronoun split. Respect is marked instead th
         heading: "Numerals",
         markdown: `
 Witchlands counting is built on the hand and the herd, not on an abstract base.
-
+ 
 | Value | Aurathil | Literal sense |
 |---|---|---|
 | 1 | *soh* | - |
@@ -236,9 +236,9 @@ Witchlands counting is built on the hand and the herd, not on an abstract base.
 | 10 | *duel* | "two hands," also colloquially "a full count" |
 | 20 | *dulu* | "a herd's worth" |
 | 100 | *duombo* | "a great herd" |
-
+ 
 Above ten, Aurathil counts by adding onto *duel*: *duel-lu-soh* = "ten and one hand and one" = 16. This is exact but cumbersome, and in practice most speakers give large quantities as an approximation (*du-* + adjective) rather than a precise numeral, "many-herd" rather than an exact count, unless the number genuinely matters, as in a bride-price or a truce's terms, where *ra-* (Word class, §2) demands precision.
-
+ 
 Numerals precede the noun they count and take no class prefix of their own; they agree with nothing.
         `
       },
@@ -246,19 +246,19 @@ Numerals precede the noun they count and take no class prefix of their own; they
         heading: "Negation, Questions, and Commands",
         markdown: `
 ### Negation
-
+ 
 Aurathil negates with the preverbal particle **ne=**, cliticized directly to the verb, ahead of the person proclitic: *ne=n-et-kho*, "I do not sense it rising." Negation and the wind-sensed evidential combine freely and are not considered contradictory; a caster can quite ordinarily assert *ne=kho*, "I've checked the wind for it, and it isn't there," which is treated as a real perceptual claim in its own right, not merely an absence of one.
-
-Nouns are negated with the particle *sa-*, prefixed before the class prefix: *sa-au-*, "no wind at all, dead calm," is a mildly ominous thing to say in a culture that navigates and casts by moving air.
-
+ 
+Nouns are negated with the particle *sa-*, prefixed before the class prefix: *sa-au-* , "no wind at all, dead calm," is a mildly ominous thing to say in a culture that navigates and casts by moving air.
+ 
 ### Yes/No Questions
-
+ 
 Questions attach at the **breath-group edge**. The question particle **-a** closes the breath group: *duru-set-kho-a?*, "is the storm rising (do you sense it)?" Because -a occupies the same structural slot as the phrase-final glottal stop, a fast or careless speaker can blur a statement into a question, which is one of the more common mistakes learners make.
-
+ 
 ### Content Questions
-
+ 
 Question words are themselves class-prefixed nouns, matching whatever they're asking about, rather than a single invariant "what/who":
-
+ 
 | Aurathil | Class | Asks about |
 |---|---|---|
 | *au-i* | Wind | what (invisible/abstract thing) |
@@ -266,18 +266,18 @@ Question words are themselves class-prefixed nouns, matching whatever they're as
 | *du-i* | Herd | which animal, how much wealth |
 | *ve-i* | Blood | who (what person, by kinship) |
 | *ra-i* | Word | what was said, what's the agreement |
-
+ 
 Asking *ra-i ki-san-us?*, "what did they say (report-evidential)?" is grammatically distinct from *ve-i ki-san-us?*, "who said it?". The first questions the content of speech, the second the speaker.
-
+ 
 ### Commands
-
+ 
 Two imperative suffixes exist, and casters are trained early to keep them straight, since the difference matters mid-working:
-
+ 
 | Suffix | Force | Use |
 |---|---|---|
 | **-ta** | direct command | ordinary instruction: "hold it," "say it now" |
 | **-tan** | soft/requested command | courteous asks, and commands issued to a working itself |
-
+ 
 Speaking *-ta* to a spell in progress, rather than *-tan*, is considered a rookie's mistake: a working is conventionally addressed with the softer form, on the folk-logic that wind, like a person, resists being ordered around and responds better to a request. Experienced casters will tell you this is superstition. They use *-tan* anyway.
         `
       },
@@ -285,7 +285,7 @@ Speaking *-ta* to a spell in progress, rather than *-tan*, is considered a rooki
         heading: "Derivation Beyond Class-Swapping and Descent",
         markdown: `
 Two further productive affixes round out everyday word-formation, alongside class-swap and the descent/epithet suffixes:
-
+ 
 - **-tu**, agentive: root + *-tu* names someone who does a thing as a matter of ordinary trade or habit, with none of the earned, conferred prestige of a descent-epithet. *Dua-set-tu*, roughly "herder," is simply a job; *dunarea*, "daughter of the drove," is a reputation. A coven can have several *dua-set-tu* and, at most, one living *dunarea* at a time.
 - **-om** / **-ik**, augmentative and diminutive: *-om* marks something great, mighty, or severe (*au-dur-om*, "a truly great storm"); *-ik* marks something small or dear (*ve-en-ik*, "little one," an affectionate term for a young child, also used between close friends).
         `
@@ -294,7 +294,7 @@ Two further productive affixes round out everyday word-formation, alongside clas
         heading: "Greetings and Common Social Formulas",
         markdown: `
 Witchlands social speech is short and breath-group-bound, in keeping with the general prosody (§1). A few fixed formulas cover most daily encounters:
-
+ 
 | Aurathil | Literal sense | Used for |
 |---|---|---|
 | *Au sao tan* | "wind favor you" | general greeting, any time of day |
@@ -309,9 +309,9 @@ Witchlands social speech is short and breath-group-bound, in keeping with the ge
         heading: "Daily-Use Dictionary",
         markdown: `
 Entries are grouped by domain and marked with their noun class prefix (Wind *au-*, Grass *sae-*, Herd *du-*, Blood *ve-*, Word *ra-*) where relevant. Verb roots are given bare, ready to take person, evidential, and aspect marking as in.
-
+ 
 ### People and Coven Life
-
+ 
 | Aurathil | Class | Gloss |
 |---|---|---|
 | *ve-lo* | Blood | person, one of the coven |
@@ -322,9 +322,9 @@ Entries are grouped by domain and marked with their noun class prefix (Wind *au-
 | *aur-tu* | - | an ordinary caster; any practitioner, unranked |
 | *sae-kem* | Grass | camp, campsite |
 | *sae-ked* | Grass | territory, range held by a coven |
-
+ 
 ### Weather and Sky
-
+ 
 | Aurathil | Class | Gloss |
 |---|---|---|
 | *au-dur* | Wind | storm |
@@ -336,9 +336,9 @@ Entries are grouped by domain and marked with their noun class prefix (Wind *au-
 | *au-dun* | Wind | a "spirit-migration"; a restless, ghost-bearing storm-front |
 | *sae-fol* | Grass | dry season |
 | *sae-vel* | Grass | wet season |
-
+ 
 ### Animals, Trade, and Wealth
-
+ 
 | Aurathil | Class | Gloss |
 |---|---|---|
 | *du-set* | Herd | livestock generally |
@@ -347,9 +347,9 @@ Entries are grouped by domain and marked with their noun class prefix (Wind *au-
 | *du-kash* | Herd | wild game |
 | *du-vo* | Herd | wealth, goods held |
 | *du-tra* | Herd | trade-good, item for barter |
-
+ 
 ### Words, Oaths, and Standing
-
+ 
 | Aurathil | Class | Gloss |
 |---|---|---|
 | *ra-vo* | Word | oath, sworn promise |
@@ -358,9 +358,9 @@ Entries are grouped by domain and marked with their noun class prefix (Wind *au-
 | *ra-sol* | Word | truce |
 | *ra-du* | Word | reputation, standing |
 | *ra-set* | Word | rumor, unverified report |
-
+ 
 ### Time
-
+ 
 | Aurathil | Gloss |
 |---|---|
 | *ol-ni* | now |
@@ -368,9 +368,9 @@ Entries are grouped by domain and marked with their noun class prefix (Wind *au-
 | *et-ni* | soon, about to begin |
 | *saeni* | "here"; combines with case suffixes for time-distance, as in *saeni-tai osad*, "three days windward" (§4) |
 | *duel-ash* | a full day-and-night cycle (lit. "ten [hours]-gusting") |
-
+ 
 ### Common Verbs
-
+ 
 | Root | Gloss |
 |---|---|
 | *dun-* | to move as a body, migrate (§2) |
@@ -382,11 +382,11 @@ Entries are grouped by domain and marked with their noun class prefix (Wind *au-
 | *tra-* | to trade, to exchange |
 | *ked-* | to hold territory, to range |
 | *nem-* | to name, to call by name |
-
+ 
 ### Basic Adjectives
-
+ 
 Adjectives follow the noun they modify (§6) and are not class-marked themselves.
-
+ 
 | Aurathil | Gloss |
 |---|---|
 | *gash* | strong, violent |
@@ -402,13 +402,22 @@ Adjectives follow the noun they modify (§6) and are not class-marked themselves
         heading: "A Second Worked Example",
         markdown: `
 **"My word stands; no trouble here."** (a stock waystation phrase)
-
-    Ra-naso-∅        ol-kho        ʔ    ne-au
-    WORD-my-ABS       stand-EVID.WIND        NEG-wind
-
+ 
+\`\`\`
+Ra-naso-∅        ol-kho        ʔ    ne-au
+WORD-my-ABS       stand-EVID.WIND        NEG-wind
+\`\`\`
+ 
 *Literal sense:* "My word (is, as far as I can tell,) standing; there's no wind [of trouble] here."
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [The Witchlands](entry.html?c=continents&id=the-witchlands): Aurathil is the shared ritual and trade tongue of the Witchlands' covens
+- [Windwork](entry.html?c=magic-systems&id=windwork): Aurathil's grammar (breath groups, the four-phase aspect cycle) mirrors Windwork's own mechanics directly
+        `
+      },
     ]
   }
 );

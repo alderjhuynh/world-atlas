@@ -24,6 +24,8 @@
 
 <p class="intro-block" id="intro-block"></p>
 
+<section class="wrap world-feature" id="world-feature"></section>
+
 <main class="wrap">
   <div class="section-heading"><h2>Categories</h2></div>
   <div class="atlas-grid" id="atlas-grid"></div>
@@ -44,7 +46,9 @@
 <script src="js/data/continents/the-northern-wastes.js"></script>
 <script src="js/data/continents/the-witchlands.js"></script>
 <script src="js/data/continents/vaelmourn.js"></script>
-<script src="js/data/history/calendars.js"></script>
+<script src="js/data/history/reckoning.js"></script>
+<script src="js/data/history/the-sundering.js"></script>
+<script src="js/data/history/vhonic-magelords.js"></script>
 <script src="js/data/kingdoms/the-crown.js"></script>
 <script src="js/data/languages/aurathil.js"></script>
 <script src="js/data/languages/common.js"></script>
@@ -52,12 +56,14 @@
 <script src="js/data/languages/xazryn.js"></script>
 <script src="js/data/magic-systems/kyrite.js"></script>
 <script src="js/data/magic-systems/marrowcraft.js"></script>
+<script src="js/data/magic-systems/split-soul.js"></script>
 <script src="js/data/magic-systems/waygates.js"></script>
 <script src="js/data/magic-systems/weaving.js"></script>
 <script src="js/data/magic-systems/windwork.js"></script>
 <script src="js/data/peoples/driftfolk.js"></script>
 <script src="js/data/peoples/serevain.js"></script>
 <script src="js/data/peoples/vosarai.js"></script>
+<script src="js/data/world/the-world.js"></script>
 <!-- ENTRY-SCRIPTS:END -->
 <script src="js/render.js"></script>
 <script>
@@ -71,6 +77,7 @@
     introEl.style.display = "none";
   }
   mountHeader(null);
+  document.getElementById("world-feature").innerHTML = renderWorldFeature();
   document.getElementById("atlas-grid").innerHTML = renderCollectionsGrid();
   mountFooter();
 </script>

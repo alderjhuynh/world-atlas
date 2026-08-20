@@ -11,6 +11,14 @@ window.WORLD_CONFIG = {
 
   collections: [
     {
+      key: "world",
+      label: "The World",
+      singular: "World",
+      description: "An overview of the world itself and how it fits together.",
+      icon: "globe",
+      featured: true
+    },
+    {
       key: "languages",
       label: "Languages & Tongues",
       singular: "Language",
@@ -60,11 +68,11 @@ window.WORLD_CONFIG = {
       icon: "hourglass"
     },
     {
-      key: "maps",
-      label: "Maps",
-      singular: "Map",
-      description: "Full-world maps and regional detail.",
-      icon: "compass"
+      key: "cosmologies",
+      label: "Cosmologies",
+      singular: "Cosmology",
+      description: "Gods and who worships them.",
+      icon: "orbits"
     }
   ]
 };

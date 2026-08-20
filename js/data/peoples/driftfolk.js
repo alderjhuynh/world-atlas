@@ -1,17 +1,16 @@
-window.WORLD_DATA.peoples.push(
+window.WORLD_DATA["peoples"].push(
 {
     id: "driftfolk",
-    title: "The Driftfolk",
+    title: "The Driftfolk of the Shattered Reach",
     subtitle: "Those Who Reckon",
     summary: "A boat-dwelling, salvage-economy people of the Shattered Reach who organize belief, kinship, marriage, and trust itself around owed and owing, having rebuilt society from nothing after the Sundering.",
-    tags: ["shattered reach", "salvage economy", "debt-logic", "raft-streets", "post-sundering", "the Long Tally"],
-    // coverImage: "assets/images/driftfolk.jpg",
+    tags: ["shattered reach","salvage economy","debt-logic","raft-streets","post-sundering","the Long Tally"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
-**Rohai** (the people's own name for themselves, roughly "those who reckon" or "the balanced"), **the Driftfolk** in Common Language. A boat-dwelling, salvage-economy people scattered across the islands, channels, and raft-streets of the Shattered Reach, descended from survivors of the Sundering who were left, in the space of one night, with no surviving government, no surviving records, and almost no way to tell who could be trusted. Nearly everything distinctive about Rohai culture can be traced back to that single fact: a society that had to rebuild trust from nothing, using only what could be counted, split, and physically checked.
+**Rohai** (the people's own name for themselves, roughly "those who reckon" or "the balanced"), **the Driftfolk** in [Common Language](entry.html?c=languages&id=common). A boat-dwelling, salvage-economy people scattered across the islands, channels, and raft-streets of [the Shattered Reach](entry.html?c=continents&id=shattered-reach), descended from survivors of the Sundering who were left, in the space of one night, with no surviving government, no surviving records, and almost no way to tell who could be trusted. Nearly everything distinctive about Rohai culture can be traced back to that single fact: a society that had to rebuild trust from nothing, using only what could be counted, split, and physically checked.
         `
       },
       {
@@ -19,7 +18,7 @@ window.WORLD_DATA.peoples.push(
         markdown: `
 Rohai belief is organized around **owed** and **owing**, or the standing question of what is currently held against a person, and what a person currently holds against others. This is not treated as a purely economic idea; it extends to guilt, gratitude, grief, and the gods alike. A rescued sailor owes a debt to whomever pulled them from the water, and that debt is spoken of using the same vocabulary, and often the same physical tokens, as an unpaid trade contract. A community that survives a bad storm season together is said to be "balanced" with one another for a full year afterward, obligated to mutual aid without needing to ask.
 
-This logic reaches all the way back to the Sundering itself, which most Rohai regard not as a natural disaster but as a debt violently called in: the old mage-lords of Vhonoris are widely believed to have taken more from the world's underlying order than they ever intended to repay, and the Sundering was that account finally, catastrophically, settling itself. Magic, as a result, is treated as radioactive with unpaid debt. Rohai communities are deeply, practically wary of magic use for this reason, not out of superstition alone but because their entire moral vocabulary treats any exchange with an unclear price as the most dangerous kind there is.
+This logic reaches all the way back to the Sundering itself, which most Rohai regard not as a natural disaster but as a debt violently called in: the old mage-lords of [Vhonoris](entry.html?c=continents&id=shattered-reach) are widely believed to have taken more from the world's underlying order than they ever intended to repay, and the Sundering was that account finally, catastrophically, settling itself. Magic, as a result, is treated as radioactive with unpaid debt. Rohai communities are deeply, practically wary of magic use for this reason, not out of superstition alone but because their entire moral vocabulary treats any exchange with an unclear price as the most dangerous kind there is.
 
 ### The Grudge
 
@@ -130,7 +129,14 @@ Not every relationship among the Rohai carries fleet-level obligation. A clear, 
 
 Wake-followers are traded with honestly, protected from casual harm the same as anyone, and can build individual reputation and even rank within a specific craft over time, but they are explicitly, and without any implied insult, excluded from a fleet's salt-debt obligation and from entry in its section of the Tally. The Rohai regard this distinction as accuracy rather than coldness: a debt owed to everyone equally, they reason, stops meaning anything, and the entire structure of Rohai trust depends on being honest about exactly who is, and isn't, currently on the account.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [The Shattered Reach](entry.html?c=continents&id=shattered-reach): The Rohai live scattered across the islands and raft-streets of the Shattered Reach
+- [The Crown](entry.html?c=kingdoms&id=the-crown): compare Crown-issued coin and law to the Rohai's split-token, no-institution approach to trust
+        `
+      },
     ]
   }
 );

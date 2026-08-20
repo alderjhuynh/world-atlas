@@ -1,24 +1,23 @@
-window.WORLD_DATA.languages.push(
+window.WORLD_DATA["languages"].push(
 {
     id: "xazryn",
     title: "Xazryn Boaawren",
     subtitle: "Language of the Crown",
     summary: "The Language of the Crown, spoken across the Kingdoms. Root-and-pattern verbal morphology on three-segment VCV roots, a rich locational/directional case system, and no copula: predication of a state or quality needs no linking verb at all.",
-    tags: ["Language of the Crown", "root-and-pattern", "templatic", "null subject", "cases", "no copula"],
-    // coverImage: "assets/images/xazryn.jpg",
+    tags: ["Language of the Crown","root-and-pattern","templatic","null subject","cases","no copula"],
 
     sections: [
       {
         heading: "Overview & Typology at a Glance",
         markdown: `
-**Xazryn Boaawren** is the Language of the Crown, spoken across the Kingdoms. As with many such names, "Language of the Crown" is a gloss rather than a translation; the native name does not literally mean that.
+**Xazryn Boaawren** is the Language of [the Crown](entry.html?c=kingdoms&id=the-crown), spoken across the Kingdoms, though, as with many such names, "Language of the Crown" is a gloss rather than a translation; the native name does not literally mean that.
 
-- **Word order:** SVO, though the subject is frequently null. Verbs are fully specified for person on their own, so an overt subject noun is often redundant rather than required.
-- **Morphology:** root-and-pattern (templatic), non-concatenative, closer in kind to Semitic ablaut systems than to the suffix-chains of Common or Vosarin.
-- **Roots:** verb roots are exactly three segments, canonically VCV (*ara* "write," *oye* "-").
-- **Derivation:** nouns are formed transparently from verb roots by prefixing **x-**; most adverbs instead have their own dedicated CVV shape.
-- **No copula:** predication of a state or quality needs no linking verb at all.
-- **Case:** nouns carry an extensive system of locational, directional, and relational cases, layered onto the same templatic logic as the verb.
+- **Word order:** SVO, though the subject is frequently null. Verbs are fully specified for person on their own, so an overt subject noun is often redundant rather than required
+- **Morphology:** root-and-pattern (templatic), non-concatenative, closer in kind to Semitic ablaut systems than to the suffix-chains of Common or [Vosarin](entry.html?c=languages&id=vosarin)
+- **Roots:** verb roots are exactly three segments, canonically VCV (*ara* "write," *oye* "-")
+- **Derivation:** nouns are formed transparently from verb roots by prefixing **x-**; most adverbs instead have their own dedicated CVV shape
+- **No copula:** predication of a state or quality needs no linking verb at all
+- **Case:** nouns carry an extensive system of locational, directional, and relational cases, layered onto the same templatic logic as the verb
         `
       },
       {
@@ -38,7 +37,7 @@ Most adverbs, by contrast, are not derived from verb roots at all; they have the
         markdown: `
 Xazryn verbs are **templatic**: rather than stringing affixes onto either end of the root, a fixed template of consonants and vowels is fitted around the root's own segments, which are inserted in order into the gaps (marked here with underscores). This is the same mechanism across every category below: tense/aspect, non-finite forms, and person are all just different templates applied to the same three-segment root.
 
-For example, the present-tense template \`_s__n\` applied to the root *ara* (a–r–a) inserts the root's three segments into the three gaps, giving:
+For example, the present-tense template **\`_s__n\`** applied to the root *ara* (a–r–a) inserts the root's three segments into the three gaps, giving:
 
 \`\`\`
 _ s _ _ n   +   a-r-a   →   a-s-r-a-n
@@ -377,7 +376,13 @@ turaerayimdy. sntairane blandd, xefi byy es naviy ana esdaniysh.
 
 Every content word here traces back to a three-segment root run through one of the templates above (*efa* "setting" → *reefaiysh*; *ada* "burning" → *abadaiysh*; *afe* "singing" → *reafeiyshy*; *abu*/*aby* "movement/flowing" → *erabuiysh erabyiysh*), with case suffixes (*-mony* superessive-plural on "mountains," *-md* dative on "light," "songs," and case-stacked genitives like *-imdy* on "leaves of the trees") layered on top.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [The Crown](entry.html?c=kingdoms&id=the-crown) — Xazryn Boaawren is the language of the Crown, spoken across the Six Kingdoms
+        `
+      },
     ]
   }
 );

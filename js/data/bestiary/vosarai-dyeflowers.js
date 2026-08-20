@@ -4,15 +4,15 @@ window.WORLD_DATA["bestiary"].push(
     title: "The Dye-Flowers of the Vosarai",
     subtitle: "Horticulture of the Crescent",
     summary: "The crescent's whole economy, and a fair share of its grammar, runs on flowers, so the Vosarai cultivate a great many of them, generation over generation, the way another people might cultivate grain varieties.",
-    tags: ["the Vosarai", "flowers", "dyes", "cultivars", "the crescent"],
+    tags: ["the Vosarai","flowers","dyes","cultivars","the crescent"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
-The crescent's whole economy, and a fair share of its grammar, runs on flowers, so it should come as no surprise that the Vosarai cultivate a great many of them, deliberately, generation over generation, the way another people might cultivate grain varieties. Every household maintains a working garden plot alongside its root-shrine, and a family's everyday dye color is drawn, by long custom, from whichever flower that household has grown longest, worn like a surname. What follows is not an exhaustive catalogue, a proper Vosarai dye-master could name several dozen more minor cultivars, but the dozen or so every crescent household would recognize on sight and by scent alike.
+The crescent's whole economy, and a fair share of its grammar, runs on flowers, so it should come as no surprise that the [Vosarai](entry.html?c=peoples&id=vosarai) cultivate a great many of them, deliberately, generation over generation, the way another people might cultivate grain varieties. Every household maintains a working garden plot alongside its root-shrine, and a family's everyday dye color is drawn, by long custom, from whichever flower that household has grown longest, worn like a surname. What follows is not an exhaustive catalogue, a proper Vosarai dye-master could name several dozen more minor cultivars, but the dozen or so every crescent household would recognize on sight and by scent alike.
 
-| Common name | Vosarin | Dye color | Notes |
+| Common name | [Vosarin](entry.html?c=languages&id=vosarin) | Dye color | Notes |
 |---|---|---|---|
 | Duskbell | *le-tomu* | Deep blue-violet | Grown in mountain-shade groves; one of the most common household-surname flowers on the crescent's inland side. |
 | Saltbloom | *le-hosin* | Pale silver-white | Tolerant of brackish bay-edge soil; the default dye of harbor-facing trading households. |
@@ -97,9 +97,17 @@ The crescent's whole economy, and a fair share of its grammar, runs on flowers, 
       {
         heading: "Farbloom",
         markdown: `
-**Farbloom**, for its part, is the closest thing the crescent has to a jealously guarded trade secret: a slow-growing, rich violet-black cultivar that foreign buyers pay well above the going rate for, and that several foreign estates have tried, and failed, to transplant onto their own soil. Vosarai growers, when asked why, tend to answer the way a Choir physician might about ichor losing its potency once shipped off Vaelmourn, only half-joking, that a flower this particular about where it's rooted was probably never going to travel well in the first place; the cultivation technique itself is passed down inside a small number of Root-lineages and closely enough guarded that even other crescent households only ever get a partial account of how it's actually grown.
+**Farbloom**, for its part, is the closest thing the crescent has to a jealously guarded trade secret: a slow-growing, rich violet-black cultivar that foreign buyers pay well above the going rate for, and that several foreign estates have tried, and failed, to transplant onto their own soil. Vosarai growers, when asked why, tend to answer the way a Choir physician might about ichor losing its potency once shipped off [Vaelmourn](entry.html?c=continents&id=vaelmourn), only half-joking, that a flower this particular about where it's rooted was probably never going to travel well in the first place; the cultivation technique itself is passed down inside a small number of Root-lineages and closely enough guarded that even other crescent households only ever get a partial account of how it's actually grown.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [The Vosarai, Mouth of Flowers](entry.html?c=peoples&id=vosarai): The Vosarai are the people who cultivate and wear these dye-flowers
+- [Vosarin](entry.html?c=languages&id=vosarin): Vosarin grammar and evidentials govern how a dye-batch's origin is authenticated
+- [Reckoning](entry.html?c=history&id=reckoning): Reckoning describes the dye-wheel calendar, whose twelve turnings are named for these same cultivars
+        `
+      },
     ]
   }
 );

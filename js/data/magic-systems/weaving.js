@@ -4,16 +4,13 @@ window.WORLD_DATA["magic-systems"].push(
     title: "Weaving",
     subtitle: "The Loom-Craft of the Six Kingdoms",
     summary: "The formal, taught, examined magical tradition of the Six Kingdoms, and the direct, deliberately reformed descendant of the old ley-binding tradition of Vhonoris. The only magical tradition on the continent taught in a building rather than a lineage or a coven, and the only one licensed by a government rather than policed by custom.",
-    tags: ["six kingdoms", "starhold", "the loom", "the weft", "the first law", "closed knot", "standing weaves", "the Sundering", "vhonoris"],
-    // coverImage: "assets/images/weaving.jpg",
+    tags: ["six kingdoms","starhold","the loom","the weft","the first law","closed knot","standing weaves","the Sundering","vhonoris"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
-**Weaving**. The formal, taught, examined magical tradition of the Six Kingdoms, practiced almost nowhere outside them in any organized form, and the direct, deliberately reformed descendant of the old ley-binding tradition of Vhonoris, carried east by the scholars who survived the Sundering and eventually settled, by degrees and by royal invitation, into Crown service. It is the only magical tradition on the continent taught in a building rather than a lineage or a coven, and the only one licensed by a government rather than policed by custom.
-
-### What Outsiders Assume
+**Weaving**. The formal, taught, examined magical tradition of [the Six Kingdoms](entry.html?c=kingdoms&id=the-crown), practiced almost nowhere outside them in any organized form, and the direct, deliberately reformed descendant of the old ley-binding tradition of [Vhonoris](entry.html?c=continents&id=shattered-reach), carried east by the scholars who survived the Sundering and eventually settled, by degrees and by royal invitation, into Crown service. It is the only magical tradition on the continent taught in a building rather than a lineage or a coven, and the only one licensed by a government rather than policed by custom.
 
 A foreign visitor who has heard even a little about the old Vhonoris tradition tends to arrive in Starhold expecting something between a museum piece and a ticking clock: ley-binding, the magic that tore a continent apart trying to hold power still, apparently alive and well and teaching students. Weavers find the assumption tiresome and not entirely wrong, and the tradition's own first-year lecture on the subject, delivered to every incoming class without exception, generally opens by agreeing with it. Weaving is ley-binding's descendant, not a polite rebranding of the same practice, and the entire architecture of the craft, its tools, its vocabulary, its one inflexible rule, exists because the people who built it survived watching the alternative fail catastrophically and rebuilt their tradition, from the workbench up, around not doing that again. A Weaver's ward will not sit unattended for a hundred years the way an old Vhonic binding-stone was built to. That it won't is not a limitation anyone in Starhold apologizes for.
         `
@@ -21,7 +18,7 @@ A foreign visitor who has heard even a little about the old Vhonoris tradition t
       {
         heading: "The Loom and the Weft",
         markdown: `
-Weaving's theory of the world holds that magical structure runs through everything, unevenly, the way grain runs through wood, and calls this underlying, fixed structure **the Loom**: not power itself so much as the shape power is willing to take when something holds still long enough for a pattern to set in it. Stone holds a strong, steady Loom. So does worked metal, old timber, and, notably, a properly cut kinstone, which is one of the very few reasons Weavers and Kyrai artisans, who have never met each other's traditions and would likely find each other's rites baffling, actually work well together when circumstance puts a shipment of Kyre kinstone on a Starhold workbench; a Vhonic-descended caster reads a good shard exactly the way its own tradition always has, as a portable, ready-made piece of Loom, and reaches for it instinctively.
+Weaving's theory of the world holds that magical structure runs through everything, unevenly, the way grain runs through wood, and calls this underlying, fixed structure **the Loom**: not power itself so much as the shape power is willing to take when something holds still long enough for a pattern to set in it. Stone holds a strong, steady Loom. So does worked metal, old timber, and, notably, a properly cut kinstone, which is one of the very few reasons Weavers and Kyrai artisans, who have never met each other's traditions and would likely find each other's rites baffling, actually work well together when circumstance puts a shipment of [Kyre](entry.html?c=continents&id=kyre) kinstone on a Starhold workbench; a Vhonic-descended caster reads a good shard exactly the way its own tradition always has, as a portable, ready-made piece of Loom, and reaches for it instinctively.
 
 What a Weaver actually does is called, appropriately, **weaving**: drawing a working thread, the **weft**, across that fixed underlying structure, over and under it in a deliberate, repeatable pattern, the same basic logic a hand-loom uses to turn a set of stretched, motionless threads into cloth. The Loom supplies the grain a pattern can catch on. The weft is the caster's own contribution, and it is the weft, not the Loom, that a Weaver is actually trained to control; nobody weaves the Loom itself, and the single worst thing the tradition's own history records anyone ever trying to do is exactly that.
         `
@@ -32,7 +29,7 @@ What a Weaver actually does is called, appropriately, **weaving**: drawing a wor
 A Weaver's basic tools are, deliberately and unapologetically, the tools of an actual weaver, scaled and adapted rather than replaced, on the theory, taught to every apprentice on their first day, that a craft this dangerous is safer practiced with hands that already know what a thread wants to do.
 
 - **The shuttle-wand.** A Weaver's primary personal instrument, carved, weighted, and balanced like a hand-loom's shuttle rather than any foreign caster's idea of a wand, used to "throw" a working thread across a chosen span of Loom in a single controlled pass. Most journeyman work, small tool-charms, a single ward on a single door, a minor working meant to last a season, is thrown and finished with a shuttle-wand alone.
-- **The frame.** Any large, standing working, a granary ward, a harbor beacon, the mountain wall above Seabreeze, is built on a **frame**: a physical structure, sometimes as modest as a stone doorway and sometimes as vast as a warded mountain range, across which the weft is thrown by multiple Weavers in coordinated passes and against which the finished pattern is anchored. A frame does not create Loom; it simply gives a working thread something fixed and legible to be thrown across, the way an actual loom's frame holds its loom-threads taut for the shuttle to work.
+- **The frame.** Any large, standing working, a granary ward, a harbor beacon, the mountain wall above [Seabreeze](entry.html?c=continents&id=seabreeze), is built on a **frame**: a physical structure, sometimes as modest as a stone doorway and sometimes as vast as a warded mountain range, across which the weft is thrown by multiple Weavers in coordinated passes and against which the finished pattern is anchored. A frame does not create Loom; it simply gives a working thread something fixed and legible to be thrown across, the way an actual loom's frame holds its loom-threads taut for the shuttle to work.
 - **The knot.** Every finished weave, large or small, is tied off, at its last thread, in a knot, and the specific form that knot takes is, without exaggeration, the single most regulated piece of technique in the entire Academy curriculum, for reasons the next section covers at length.
         `
       },
@@ -79,7 +76,16 @@ Weaving carries one dominant, well-documented failure mode, and the Academy's en
 
 The tradition's practical answer, consistent with a caution learned the hardest possible way, is redundancy rather than heroics. No standing weave is tended by a single Weaver, no frame's release-knot is known to only one living person, and every rotation posted to a frontier line, the Seabreeze wardline most of all, trains its relief shift on the exact location of the working end before the current shift is ever allowed to stand down. It is slower, more expensive, and considerably less impressive than the old Vhonic habit of tying a binding once and calling it finished. Starhold has never once, in three centuries of licensed practice, treated that as a fair trade against the alternative.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [The Shattered Reach](entry.html?c=continents&id=shattered-reach): Weaving is the reformed descendant of Vhonoris's old ley-binding tradition
+- [The Crown](entry.html?c=kingdoms&id=the-crown): Weaving is the Six Kingdoms' only government-licensed magical tradition, centered at Starhold
+- [Seabreeze](entry.html?c=continents&id=seabreeze): The Seabreeze wardline is the most famous standing weave in the Kingdoms
+- [Kyrite and Kinwork](entry.html?c=magic-systems&id=kyrite): Weavers and Kyrai Kinworkers are two of the few traditions that work well together
+        `
+      },
     ]
   }
 );

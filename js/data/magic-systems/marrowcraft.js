@@ -4,8 +4,7 @@ window.WORLD_DATA["magic-systems"].push(
     title: "Marrowcraft",
     subtitle: "The Craft of Vaelkyr's Remains",
     summary: "The craft of drawing usable substance from Vaelkyr's remains and turning it into fuel, medicine, and, in its rarest and most dangerous form, something that behaves like a miracle. Practiced nowhere else in the world, for the simple reason that nowhere else has a body this size, this old, or this reluctant to finish dying.",
-    tags: ["vaelmourn", "Vaelkyr", "marrow", "ichor", "the Hollow", "the Choir"],
-    // coverImage: "assets/images/marrowcraft.jpg",
+    tags: ["vaelmourn","Vaelkyr","marrow","ichor","the Hollow","the Choir"],
 
     sections: [
       {
@@ -13,9 +12,7 @@ window.WORLD_DATA["magic-systems"].push(
         markdown: `
 **Marrowcraft**, or, more precisely and more rarely used outside the trade itself, the distinction between **marrow-work** and **vein-work**. The general term for the craft, part mining, part alchemy, part quietly-managed theology, of drawing usable substance from Vaelkyr's remains and turning it into fuel, medicine, and, in its rarest and most dangerous form, something that behaves like a miracle. Not practiced anywhere else in the world, for the simple reason that nowhere else has a body this size, this old, or this reluctant to finish dying.
 
-### What Outsiders Assume
-
-A foreign buyer hearing "ichor" for the first time tends to imagine something closer to a potion: bottled, uniform, reliably the same working every time a stopper comes out. Vaelmourn's own physicians find this assumption almost sweet in its wrongness. Marrow is closer to a resource than a reagent, harvested in bulk and refined the way tallow or ore is refined, its quality varying cavern to cavern the way a vintner's grapes vary field to field. Ichor is not a potion at all. It is not made, in any sense a foreign alchemist would recognize; it is found, already finished, by something that stopped being alive a very long time ago, and every drop a Marrowcrafter draws off is a fixed, non-renewing quantity of a thing nobody on the continent knows how to replace. The two substances come from the same body and are handled, on the ground, by many of the same guilds. They are not, in any other sense, the same craft.
+A foreign buyer hearing "ichor" for the first time tends to imagine something closer to a potion: bottled, uniform, reliably the same working every time a stopper comes out. [Vaelmourn](entry.html?c=continents&id=vaelmourn)'s own physicians find this assumption almost sweet in its wrongness. Marrow is closer to a resource than a reagent, harvested in bulk and refined the way tallow or ore is refined, its quality varying cavern to cavern the way a vintner's grapes vary field to field. Ichor is not a potion at all. It is not made, in any sense a foreign alchemist would recognize; it is found, already finished, by something that stopped being alive a very long time ago, and every drop a Marrowcrafter draws off is a fixed, non-renewing quantity of a thing nobody on the continent knows how to replace. The two substances come from the same body and are handled, on the ground, by many of the same guilds. They are not, in any other sense, the same craft.
         `
       },
       {
@@ -102,9 +99,16 @@ Marrow is graded far more casually, by rendering-house reputation and simple buy
       {
         heading: "Ichor Abroad",
         markdown: `
-Ichor sold abroad is, without exception, thin or true grade, pre-cut, and accompanied by a Choir attestation of its source vein and draw-date, since an uncertified vial reaching a foreign port is worth a fraction of a certified one and considerably harder to sell at all. Foreign physicians who acquire it report a working potency that fades noticeably faster once it's left the continent, an effect Choir scholars attribute to distance from whatever residual presence still keeps the rest of Vaelkyr's remains from behaving like ordinary bone, and most reputable foreign buyers know to use a shipment quickly rather than let it sit. A handful of Kyrai and old Vhonoris alchemists have attempted, over the centuries, to synthesize something ichor-like from other reagents; none has ever produced more than a very expensive placebo, and Vaelmourn physicians, asked about these efforts, tend to respond with something close to pity rather than professional alarm.
+Ichor sold abroad is, without exception, thin or true grade, pre-cut, and accompanied by a Choir attestation of its source vein and draw-date, since an uncertified vial reaching a foreign port is worth a fraction of a certified one and considerably harder to sell at all. Foreign physicians who acquire it report a working potency that fades noticeably faster once it's left the continent, an effect Choir scholars attribute to distance from whatever residual presence still keeps the rest of Vaelkyr's remains from behaving like ordinary bone, and most reputable foreign buyers know to use a shipment quickly rather than let it sit. A handful of Kyrai and old [Vhonoris](entry.html?c=continents&id=shattered-reach) alchemists have attempted, over the centuries, to synthesize something ichor-like from other reagents; none has ever produced more than a very expensive placebo, and Vaelmourn physicians, asked about these efforts, tend to respond with something close to pity rather than professional alarm.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [Vaelmourn, the Bonelands](entry.html?c=continents&id=vaelmourn): Vaelmourn is the only continent where Marrowcraft is practiced, drawn from Vaelkyr's own remains
+- [The Serevain](entry.html?c=peoples&id=serevain): The Serevain live directly on the bones Marrowcraft draws its materials from
+        `
+      },
     ]
   }
 );

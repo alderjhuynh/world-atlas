@@ -213,6 +213,63 @@ button:focus-visible {
   font-size: 1.02rem;
 }
 
+.world-feature {
+  margin: 36px auto 0;
+  padding: 0 32px;
+}
+
+.world-card {
+  display: flex;
+  align-items: stretch;
+  background: var(--parchment);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--ink);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.world-card:hover { border-color: var(--brass); transform: translateY(-2px); }
+
+.world-card-cover {
+  flex: 0 0 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--parchment-3);
+}
+
+.world-card-cover--empty span { width: 76px; height: 76px; color: var(--brass); opacity: 0.7; }
+.world-card-cover--empty svg { width: 100%; height: 100%; }
+
+.world-card-body {
+  padding: 30px 32px 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.world-card-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  margin: 2px 0 0;
+}
+
+.world-card-summary {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  margin: 0;
+  line-height: 1.6;
+  max-width: 70ch;
+}
+
+@media (max-width: 640px) {
+  .world-card { flex-direction: column; }
+  .world-card-cover { flex-basis: 130px; }
+}
+
 .section-heading {
   display: flex;
   align-items: baseline;

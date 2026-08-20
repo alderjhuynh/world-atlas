@@ -1,17 +1,16 @@
-window.WORLD_DATA.peoples.push(
+window.WORLD_DATA["peoples"].push(
 {
     id: "serevain",
     title: "The Serevain",
     subtitle: "Ribfolk",
     summary: "A people of Vaelmourn's Ribcage who build along the ribs themselves rather than in the sheltered basin below, organizing belief, kinship, and honesty itself around the distinction between Held and Open.",
-    tags: ["vaelmourn", "ribcage", "held/open logic", "tier settlements", "the Climb", "true-setters"],
-    // coverImage: "assets/images/serevain.jpg",
+    tags: ["vaelmourn","ribcage","held/open logic","tier settlements","the Climb","true-setters"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
-**Serevain**, or simply **Ribfolk**, in everyday Common usage. A people of Vaelmourn's Ribcage region who build not in the sheltered basin below nor on the Spine's holy heights, but along the ribs themselves: narrow, curving settlements strung out for miles across the outward face of a single bone, with a sheer drop to the basin floor on one side and, on clear days, a view of a dozen sister-ribs marching off into the distance on the other. Nearly everything distinctive about Serevain life follows from that single, literal fact of geography: a people who live their whole lives on a curve, between the crowded certainty of the ground and the cold, unmapped, permanently mist-wrapped uncertainty above them.
+**Serevain**, or simply **Ribfolk**, in everyday Common usage. A people of [Vaelmourn](entry.html?c=continents&id=vaelmourn)'s Ribcage region who build not in the sheltered basin below nor on the Spine's holy heights, but along the ribs themselves: narrow, curving settlements strung out for miles across the outward face of a single bone, with a sheer drop to the basin floor on one side and, on clear days, a view of a dozen sister-ribs marching off into the distance on the other. Nearly everything distinctive about Serevain life follows from that single, literal fact of geography: a people who live their whole lives on a curve, between the crowded certainty of the ground and the cold, unmapped, permanently mist-wrapped uncertainty above them.
         `
       },
       {
@@ -141,7 +140,14 @@ Not every relationship a Serevain settlement maintains carries the full weight o
 
 **Switchback-folk**, itinerant marrow-miners, journeyman bonewrights, and traders who work a settlement's access-shafts and lower tiers for a season without ever settling, occupy the loosest category of all: welcomed, paid fairly, protected the same as anyone from casual harm, but never issued a tier-sash, never permitted a Span, and not recorded on the Roll of Height or marked with a peg should the worst happen while they're passing through. A rib is a demanding, dangerous place to call home, and calling it home is something a person has to actually do, not something granted simply for having climbed it once.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [Vaelmourn, the Bonelands](entry.html?c=continents&id=vaelmourn): The Serevain are Vaelmourn's rib-top people
+- [Marrowcraft](entry.html?c=magic-systems&id=marrowcraft): Serevain hold-cutters and basin bonewrights both work within Vaelmourn's marrow and bone economy
+        `
+      },
     ]
   }
 );

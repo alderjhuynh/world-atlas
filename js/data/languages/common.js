@@ -1,27 +1,26 @@
-window.WORLD_DATA.languages.push(
+window.WORLD_DATA["languages"].push(
 {
     id: "common",
     title: "The Common Language",
     subtitle: "Trade lingua franca",
     summary: "The trade lingua franca of the world. Head-final, heavily suffixing, and case-driven, with no verb agreement. Every relationship in a sentence is carried by case suffixes alone, and every role is disambiguated purely by case.",
-    tags: ["lingua franca", "trade", "SOV", "case-driven", "no verb agreement", "tone"],
-    // coverImage: "assets/images/common.jpg",
+    tags: ["lingua franca","trade","SOV","case-driven","no verb agreement","tone"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
-This is the trade lingua franca referenced in the Vosarin documentation as the source of the Vosarai's exonym: **miæɲa ɛlʃamŋa**, "The Mouth of Flowers." Unlike Vosarin itself, this language is head-final, heavily suffixing, and case-driven, with no verb agreement. Every relationship in a sentence is carried by case suffixes alone.
+This is the trade lingua franca referenced in the [Vosarin](entry.html?c=languages&id=vosarin) documentation as the source of the [Vosarai](entry.html?c=peoples&id=vosarai)'s exonym: **miæɲa ɛlʃamŋa**, "The Mouth of Flowers." Unlike Vosarin itself, this language is head-final, heavily suffixing, and case-driven, with no verb agreement. Every relationship in a sentence is carried by case suffixes alone.
         `
       },
       {
         heading: "Typology at a Glance",
         markdown: `
-- **Word order:** SOV (subject-object-verb)
+- **Word order:** SOV (subject–object–verb)
 - **Head-final:** modifiers, cases, and clauses all trail toward or attach after their heads in a right-branching, suffix-heavy structure
 - **Morphology:** agglutinative, with mild fusion between adjacent suffixes
 - **Marking:** dependent-marking (relationships are marked on the dependent noun/verb, not the head)
-- **Adpositions:** postpositional only, no prepositions
+- **Adpositions:** postpositional only — no prepositions
 - **Modifier order:** modifiers precede what they modify
         `
       },
@@ -36,26 +35,26 @@ This is the trade lingua franca referenced in the Vosarin documentation as the s
 | Nasal | n, ŋ, ɲ | Contrastive distribution |
 | Liquid/Glide | l, ɭ, ʎ, j | Contrastive distribution |
 | Fricative | f, θ | Contrastive distribution |
-| Fricative | h | - |
-| Glide | w | - |
+| Fricative | h | — |
+| Glide | w | — |
 
 ### Vowels
 
 A large, fully contrastive vowel inventory:
 
-*i, y, ɪ, ʉ, ɯ, u, ʊ, e, ø, ɘ, ɵ, ɤ, o, ə, ɛ, ɜ, ɔ, æ, ɐ, a, ɶ, ɑ, ɒ*
+i, y, ɪ, ʉ, ɯ, u, ʊ, e, ø, ɘ, ɵ, ɤ, o, ə, ɛ, ɜ, ɔ, æ, ɐ, a, ɶ, ɑ, ɒ
 
 Every vowel quality above is phonemically distinct.
 
 ### Word Shapes
 
 - **Nouns** are typically CV(C)V, and usually end in a vowel or sonorant.
-  - *miæɲa* /miˈæɲa/: "mouth"
-  - *ʃam* /ʃam/: "flower"
+  - *miæɲa* /miˈæɲa/ — "mouth"
+  - *ʃam* /ʃam/ — "flower"
 - **Verbs** are usually (C)V(C)V, and usually end in a vowel.
-  - *hɘma*: "to speak"
-  - *lɯθa*: "to open"
-  - *hoɭa*: "to bloom"
+  - *hɘma* — "to speak"
+  - *lɯθa* — "to open"
+  - *hoɭa* — "to bloom"
         `
       },
       {
@@ -81,7 +80,7 @@ Number is layered onto the noun independently of case:
 | Number | Meaning | Suffix | Example |
 |---|---|---|---|
 | Singular | 1 | -æ | miæɲaæ |
-| Plural | 2-10 | (unmarked, assumed) | miæɲa |
+| Plural | 2–10 | (unmarked, assumed) | miæɲa |
 | Collective | 10+ | -ŋa | miæɲaŋa |
 
 ### Personal/Pronominal Forms
@@ -135,9 +134,11 @@ Critically, **verbs never agree with their arguments.** All grammatical roles ar
 
 ### Worked Example
 
-    hɘma-ʉ-ɯ-h
-    speak-CONT-PAST-REP
-    "was reportedly speaking"
+\`\`\`
+hɘma-ʉ-ɯ-h
+speak-CONT-PAST-REP
+"was reportedly speaking"
+\`\`\`
         `
       },
       {
@@ -147,39 +148,47 @@ Critically, **verbs never agree with their arguments.** All grammatical roles ar
 
 Since verbs carry no agreement, argument roles are disambiguated purely by case:
 
-    A-ERG   O-ABS   V
-    miæɲa-ɐ  ʃam    hɘma-ɘ
-    mouth-ERG flower speak-IPFV
-    "The mouth speaks the flower."
+\`\`\`
+A-ERG   O-ABS   V
+miæɲa-ɐ  ʃam    hɘma-ɘ
+mouth-ERG flower speak-IPFV
+"The mouth speaks the flower."
+\`\`\`
 
-*(The poetic ambiguity of "speaking a flower" is intentional in this language.)*
+*(The poetic ambiguity of "speaking a flower" is intentional in this language — it isn't a translation error.)*
 
 ### Modification
 
 Modifiers precede what they modify, including genitive possessors:
 
-    ɛl-ʃam   miæɲa
-    flower-GEN mouth
-    "flower's mouth"
+\`\`\`
+ɛl-ʃam   miæɲa
+flower-GEN mouth
+"flower's mouth"
+\`\`\`
 
 ### Adjectives as Stative Verbs
 
-There is no separate adjective class. Descriptive concepts are verb-like statives that inflect the same way any other verb does.
+There is no separate adjective class — descriptive concepts are verb-like statives that inflect the same way any other verb does.
 
 - *ɭɘθa*: "to be open"
 - *jɔma*: "to be bright"
 
 **Attributive use** (modifying a noun, uninflected, placed before it):
 
-    jɔma   miæɲa
-    bright mouth
-    "bright mouth"
+\`\`\`
+jɔma   miæɲa
+bright mouth
+"bright mouth"
+\`\`\`
 
 **Predicative use** (functioning as the clause's main verb, taking normal verbal inflection):
 
-    miæɲa jɔma-ɘ
-    mouth bright-IPFV
-    "The mouth is bright."
+\`\`\`
+miæɲa jɔma-ɘ
+mouth bright-IPFV
+"The mouth is bright."
+\`\`\`
 
 ### Postpositions
 
@@ -191,9 +200,11 @@ There are no prepositions, only postpositions, which follow their noun phrase (a
 | under | hɤ |
 | toward | jo |
 
-    miæɲa  ʃam-ɤ    jo     hɘma-ɘ
-    mouth  flower-LOC toward speak-IPFV
-    "The mouth speaks toward the flower."
+\`\`\`
+miæɲa  ʃam-ɤ    jo     hɘma-ɘ
+mouth  flower-LOC toward speak-IPFV
+"The mouth speaks toward the flower."
+\`\`\`
         `
       },
       {
@@ -213,11 +224,13 @@ Verbs can be turned into nouns with a small, productive set of suffixes:
 
 ### Full Worked Example
 
-    miæɲa-ɐ    ɛl-ʃam-ŋa      jɔma-ɘ     hɘma-ʉ-ɯ
-    mouth-ERG  flower-GEN-COL bright-IPFV speak-CONT-PAST
-    "The Mouth of Flowers was speaking brightly."
+\`\`\`
+miæɲa-ɐ    ɛl-ʃam-ŋa      jɔma-ɘ     hɘma-ʉ-ɯ
+mouth-ERG  flower-GEN-COL bright-IPFV speak-CONT-PAST
+"The Mouth of Flowers was speaking brightly."
+\`\`\`
 
-This is the phrase that gives the Vosarai people, by exonym, their name.
+This is the phrase that gives the language — and the Vosarai people, by exonym — its name.
         `
       },
       {
@@ -228,7 +241,7 @@ Tone is layered on top of the segmental grammar as an independent, semi-optional
 ### Tone-Bearing Consonants
 
 - **Fully tone-bearing:** m, ɱ, n, ŋ, ɴ, l, ɭ, ʎ, j, w, h
-- **Partially tone-bearing:** f, θ, h (realized as a shift in intensity rather than pitch)
+- **Partially tone-bearing:** f, θ, h — realized as a shift in intensity rather than pitch
 
 A tone attaches to the **first tone-bearing consonant** in a word.
 
@@ -243,7 +256,14 @@ A tone attaches to the **first tone-bearing consonant** in a word.
 
 A word can carry up to two tones on its tone-bearing consonant, layering these emotional colorings, where the exact combined meaning is left to the speaker's intent, as long as it's internally logical.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [Vosarin](entry.html?c=languages&id=vosarin): The Common Language exonym for the Vosarai, 'Mouth of Flowers', is drawn from Vosarin
+- [The Vosarai, Mouth of Flowers](entry.html?c=peoples&id=vosarai): The Vosarai are the people named by this exonym
+        `
+      },
     ]
   }
 );

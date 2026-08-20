@@ -4,16 +4,13 @@ window.WORLD_DATA["magic-systems"].push(
     title: "Kyrite and Kinwork",
     subtitle: "The Stonecraft of the Kyrai",
     summary: "Kyrite, or manastone, a crystalline mineral found in appreciable quantity almost nowhere in the world outside the Kyresh Range. Abroad it is understood as a battery; among the Kyrai it is a substance patient enough to be written on, and the tradition of doing so, Kinwork, is older than any foreign ship that ever reached the coast.",
-    tags: ["kyrite", "manastone", "kinwork", "the Kyrai", "the Kyresh Range", "the concessions"],
-    // coverImage: "assets/images/kyrite.jpg",
+    tags: ["kyrite","manastone","kinwork","the Kyrai","the Kyresh Range","the concessions"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
 **Kyrite**, or **manastone** by nearly every foreign market that buys it, a crystalline mineral found in appreciable quantity almost nowhere in the world outside the Kyresh Range. Abroad, it is understood as a battery: a stone that holds magical charge the way a cistern holds water, and releases it, on demand, to a caster who would otherwise have to draw the same power slowly and painfully out of years of personal training. Among the Kyrai, kyrite has always meant something closer to a second material: not power waiting to be spent, but a substance patient enough to be *written on*, and the tradition of doing so, **Kinwork**, is older than any foreign ship that ever reached the coast to buy the stone without asking what it had originally been for.
-
-### What Outsiders Assume
 
 A foreign artificer buying manastone by the crate tends to think of it, reasonably enough given how it's sold to them, as inert until spent: a charged shard, wired or set into a working, releases its stored potential and goes dark, no different in principle from any other stored resource. This is true of raw, uncut kyrite, and it is the entire basis of the export trade. It is not true of a properly worked **kinstone**, and the difference between the two is not one of degree. A shard of raw kyrite is potential without shape. A kinstone is potential that has been told, patiently, over hours of careful cutting, exactly what to become, and it will keep becoming that thing, precisely and repeatably, for a caster who has any right to hold it, long after an equivalent raw shard would have burned itself out doing something far cruder. Most foreign buyers have never seen a true kinstone. The ones who have, and who understood what they were looking at, tend not to talk about the price.
         `
@@ -36,11 +33,11 @@ That last row is, in practice, the whole of the difference between the foreign t
       {
         heading: "Kyrite Abroad",
         markdown: `
-Foreign use of kyrite is, almost without exception, extractive in the plainest sense: the stone is cut into standard shapes, graded by glow, and set into a working, a wand core, a ritual circle's corner-stones, an artificer's engine, as a straightforward power source. A caster who would otherwise spend a decade cultivating the personal capacity for a serious working can, with a properly graded shard, perform something close to the same effect on borrowed charge instead, which is precisely what has made manastone the most sought-after magical export material on the planet, and precisely why every occupying power on Kyre's coast has organized its entire colonial economy around getting more of it out of the ground.
+Foreign use of kyrite is, almost without exception, extractive in the plainest sense: the stone is cut into standard shapes, graded by glow, and set into a working, a wand core, a ritual circle's corner-stones, an artificer's engine, as a straightforward power source. A caster who would otherwise spend a decade cultivating the personal capacity for a serious working can, with a properly graded shard, perform something close to the same effect on borrowed charge instead, which is precisely what has made manastone the most sought-after magical export material on the planet, and precisely why every occupying power on [Kyre](entry.html?c=continents&id=kyre)'s coast has organized its entire colonial economy around getting more of it out of the ground.
 
 This use has real, well-documented limits. Raw kyrite is a battery, not a teacher: it supplies force, not technique, and a caster with no underlying skill gets nothing useful out of even a heartseam shard beyond an expensive, poorly directed burst. It is also finite and one-directional. A shard spends down with use, its glow dimming permanently with each working drawn from it, and a fully spent shard, known abroad simply as **dead stone**, is inert, worthless, and, notably, the one form of kyrite no Kyrai artisan has ever found a way to revive. This is the quiet engine underneath the entire kyrite trade: every working performed abroad consumes a small, non-renewing piece of the Kyresh Range, and the concessions' demand for fresh-cut stone has never once slowed, in generations, because the supply keeps running out under it.
 
-Reactions to raw kyrite vary by the receiving tradition. Vhonic ley-casters, accustomed to power that already pools and can be drawn from a fixed convergence, use it easily and often, treating a good shard as simply a portable convergence. Witchlands windworkers, whose entire practice assumes charge that moves and refuses to settle, find kyrite actively unsettling to work with, a stone that holds charge rather than letting it pass reading, to trained breath-sense, like something that has forgotten how to let go; more than one hired Witchlands caster has declined a second contract that required handling it.
+Reactions to raw kyrite vary by the receiving tradition. Vhonic ley-casters, accustomed to power that already pools and can be drawn from a fixed convergence, use it easily and often, treating a good shard as simply a portable convergence. [Witchlands](entry.html?c=continents&id=the-witchlands) windworkers, whose entire practice assumes charge that moves and refuses to settle, find kyrite actively unsettling to work with, a stone that holds charge rather than letting it pass reading, to trained breath-sense, like something that has forgotten how to let go; more than one hired Witchlands caster has declined a second contract that required handling it.
         `
       },
       {
@@ -68,7 +65,7 @@ It does not always go undone anyway. Kyrai artisans in several concessions maint
       {
         heading: "Kinwork in the Free Interior",
         markdown: `
-Away from the concessions, Kinwork is practiced openly and remains the technical and spiritual center of Kyrai craft, exactly as it was before the first foreign ship reached the coast. Every lineage maintains its own patterns, its own trained cutters, and its own understanding of which kin-patterns are shared freely with allied lineages and which are kept close; tool-charms, hunting-wards, and healer's kinstones make up the ordinary bulk of the work, unremarkable and constant, the same way marrow-salve is unremarkable in Vaelmourn.
+Away from the concessions, Kinwork is practiced openly and remains the technical and spiritual center of Kyrai craft, exactly as it was before the first foreign ship reached the coast. Every lineage maintains its own patterns, its own trained cutters, and its own understanding of which kin-patterns are shared freely with allied lineages and which are kept close; tool-charms, hunting-wards, and healer's kinstones make up the ordinary bulk of the work, unremarkable and constant, the same way marrow-salve is unremarkable in [Vaelmourn](entry.html?c=continents&id=vaelmourn).
 
 The interior's resistance effort draws directly on the same tradition. Raid-coordination relies on kinstones cut to answer only to a specific bearer or lineage, useless if intercepted; border wards along the margin between occupied coast and free interior are maintained, in large part, by kinstones renewed on a rotation the concessions have never managed to map, let alone disrupt; and escape routes into the interior are marked, where they're marked at all, not on any paper map an interrogation could produce, but in kin-patterns cut into trailside stone that read as natural mineral veining to anyone without the lineage-knowledge to recognize them as anything else.
         `
@@ -82,7 +79,15 @@ Kinwork is exacting, slow work, and it carries its own costs, distinct from ston
 - **Worked stone loses receptivity.** Once a shard has been cut and polished to standard export shape, its irregular internal pattern smoothed away for grading, it can never afterward take a kin-pattern, whatever it was before. This is the practical reason the concessions' preference for clean, gradeable cuts is, from a Kyrai standpoint, not merely an aesthetic loss but an irreversible one: a marked seam cut wrong the first time cannot be recut correctly later.
 - **The carver's own toll.** Master Kinworkers who spend decades at the bench report a slow dulling of their own sense for a stone's pattern, not the numbness of stonelung, but something closer to a hand that has drawn the same lines so many times it starts to see a pattern in every stone whether one is truly there or not. The tradition's answer, consistent across lineages, is the same the Choir might recognize from a very different continent: no cutter works alone past a certain seniority, and every finished kinstone is checked, before the rite, by a second, fresher set of eyes.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [Kyre](entry.html?c=continents&id=kyre): Kyre is the only continent where kyrite is found in appreciable quantity
+- [The Witchlands](entry.html?c=continents&id=the-witchlands): Windwork practitioners find worked kyrite unsettling to handle
+- [Weaving](entry.html?c=magic-systems&id=weaving): Weavers read a good kyrite shard as a portable, ready-made piece of Loom
+        `
+      },
     ]
   }
 );

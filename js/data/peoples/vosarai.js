@@ -1,17 +1,16 @@
-window.WORLD_DATA.peoples.push(
+window.WORLD_DATA["peoples"].push(
 {
     id: "vosarai",
-    title: "The Vosarai",
+    title: "The Vosarai, Mouth of Flowers",
     subtitle: "Mouth of Flowers",
     summary: "A crescent-dwelling people of the Northern Wastes, sheltered by mountains and bound to the sea, who organize shelter, kinship, and even grammar around what protects what.",
-    tags: ["northern wastes", "dye economy", "shelter-logic", "soul class", "trade"],
-    // coverImage: "assets/images/vosarai.jpg",
+    tags: ["northern wastes","dye economy","shelter-logic","soul class","trade"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
-**Vosarai**, **miæɲa ɛlʃamŋa** in the Common Language exonym: "The Mouth of Flowers." A crescent-dwelling people of the Northern Wastes, sheltered by mountains and bound to the sea.
+**Vosarai**, **miæɲa ɛlʃamŋa** in [the Common Language](entry.html?c=languages&id=common) exonym: "The Mouth of Flowers." A crescent-dwelling people of [the Northern Wastes](entry.html?c=continents&id=the-northern-wastes), sheltered by mountains and bound to the sea.
         `
       },
       {
@@ -47,7 +46,7 @@ Every household keeps a **ke-sora**, a "root-shrine", physically a shallow dish 
       {
         heading: "Life Stages, Told in Aspect",
         markdown: `
-Because Vosarin grammar organizes the verb system around the life cycle of a bloom, Vosarai social life is explicitly periodized the same way. There are four named life-stages, each mapped onto a verbal aspect, and each with its own dress, obligations, and rites.
+Because [Vosarin](entry.html?c=languages&id=vosarin) grammar organizes the verb system around the life cycle of a bloom, Vosarai social life is explicitly periodized the same way. There are four named life-stages, each mapped onto a verbal aspect, and each with its own dress, obligations, and rites.
 
 | Stage | Aspect | Rough age | Marker |
 |---|---|---|---|
@@ -141,7 +140,15 @@ Mourning lasts one full dye-season (roughly a Vosarai year), ending with a commu
         markdown: `
 Not everything gets absorbed into Vosarai custom. The docks maintain a separate, deliberately shallow set of customs for dealing with harbor-traders and pidgin-speakers. The Vosarai are quite conscious of this boundary and speak of it directly: harbor relationships are, in their own words, "roofed but not rooted", sheltered for the moment (kol) without being drawn into the deep lineage-and-lee logic (Root, Vine) that governs life inside the crescent. It is considered neither an insult nor a failure of hospitality; it is simply understood as the correct, limited shape for a relationship with people who will sail on with the season.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [Vosarin](entry.html?c=languages&id=vosarin): Vosarin is the Vosarai's own language
+- [The Northern Wastes](entry.html?c=continents&id=the-northern-wastes): The Vosarai crescent sits within the wider Northern Wastes
+- [The Dye-Flowers of the Vosarai](entry.html?c=bestiary&id=vosarai-dyeflowers): The Dye-Flowers of the Vosarai catalogs the household cultivars referenced throughout this entry
+        `
+      },
     ]
   }
 );

@@ -1,19 +1,16 @@
-window.WORLD_DATA.continents.push(
+window.WORLD_DATA["continents"].push(
 {
     id: "the-witchlands",
     title: "The Witchlands",
     subtitle: "The Open Country",
     summary: "A vast southeastern continent of wind-driven grassland, home to no crown, no capital, and no census, where the only reliably organized thing is the magic.",
-    tags: ["grassland", "the Open Country", "wind-roads", "covens", "bands", "waystations", "ungoverned", "southeastern continent"],
-    // coverImage: "assets/images/the-witchlands.jpg",
+    tags: ["grassland","the Open Country","wind-roads","covens","bands","waystations","ungoverned","southeastern continent"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
 **Tallgrass**, **the Open Country**, or, almost universally in every outsider's mouth, **the Witchlands**. A vast southeastern continent of wind-driven grassland, home to no crown, no capital, and no census, where the only reliably organized thing is the magic.
-
-### What It Is Not
 
 The easiest way to describe the Witchlands is by what visitors expect to find and don't. There is no throne to petition, no border post to clear, no royal road, no currency minted by any single authority, and no single map anyone entirely trusts. There has never, in living memory or written record, been a Witchlands government. Outsiders, particularly those from more orderly continents, tend to describe the place with words like "lawless," "wild," or "ungoverned," and locals do not much dispute the description, they just don't consider it an insult, or even especially remarkable. The grass does not need a king. Neither, in the local view, do the people standing in it.
         `
@@ -73,7 +70,7 @@ Neither form is considered more legitimate than the other, and a single coven wi
         markdown: `
 ### Why the Witchlands Breed Spellcasters
 
-No one fully agrees on why the Witchlands produces so disproportionate a share of the world's independent spellcasters, though most local explanations point to the same underlying fact: with no institution to license, test, or monopolize magical training, anyone with the aptitude and a willing teacher can practice it, openly, without asking anyone's permission first. Magic here is not a credential handed down by a university, as it once was on Vhonoris; it is closer to a trade skill, learned coven-to-coven, teacher-to-apprentice, with as many distinct traditions and quirks as there are covens to hold them.
+No one fully agrees on why the Witchlands produces so disproportionate a share of the world's independent spellcasters, though most local explanations point to the same underlying fact: with no institution to license, test, or monopolize magical training, anyone with the aptitude and a willing teacher can practice it, openly, without asking anyone's permission first. Magic here is not a credential handed down by a university, as it once was on [Vhonoris](entry.html?c=continents&id=shattered-reach); it is closer to a trade skill, learned coven-to-coven, teacher-to-apprentice, with as many distinct traditions and quirks as there are covens to hold them.
 
 This produces a magical culture that outsiders, used to formal schools and licensed practitioners, often find bewildering: a Witchlands spellcaster's skill and style say more about who raised and taught them than about any shared curriculum, and two casters from covens a hundred miles apart may have almost nothing in common in method beyond the fact that both call what they do magic.
 
@@ -101,7 +98,15 @@ Where coven territory meets the Coastal Fringe, or where two wind-roads cross re
         markdown: `
 Foreign accounts of the Witchlands tend toward one of two caricatures: a lawless frontier of dangerous, unaccountable magic-users, or a romanticized wilderness of free peoples answering to nothing but the wind. Both flatten a great deal. What outside observers most consistently miss is that the Witchlands is not a *failed* version of a state, it is a place that never tried to become one, and has, by its own reckoning, gotten along rather well without it for as long as anyone can remember. Merchants who deal with the Fringe learn quickly that "lawless" does not mean "no rules"; it means the rules were never going to be written down for a stranger to read in advance. You learn them, coven by coven, or you don't come back.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [Aurathil](entry.html?c=languages&id=aurathil): Aurathil is the Witchlands' shared casting and trade tongue
+- [Windwork](entry.html?c=magic-systems&id=windwork): Windwork is the magical tradition practiced across the grass sea
+- [The Shattered Reach](entry.html?c=continents&id=shattered-reach): The Witchlands' stateless order is often contrasted with Vhonoris's catastrophic centralization
+        `
+      },
     ]
   }
 );

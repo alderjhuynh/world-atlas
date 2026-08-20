@@ -1,17 +1,22 @@
-window.WORLD_DATA.continents.push(
+window.WORLD_DATA["continents"].push(
 {
     id: "shattered-reach",
     title: "The Shattered Reach",
     subtitle: "The Broken Continent",
     summary: "Formerly the single landmass of Vhonoris, now a scattered archipelago of several thousand islands, skerries, and half-drowned peaks in the world's southwestern sea, torn apart a few generations ago by the magical catastrophe called the Sundering.",
-    tags: ["archipelago", "the Sundering", "wild water", "monsoon", "floating markets", "post-cataclysm", "southeastern sea"],
-    // coverImage: "assets/images/shattered-reach.jpg",
+    tags: ["archipelago","the Sundering","wild water","monsoon","floating markets","post-cataclysm","southeastern sea"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
 **Vhonoris** (the old continent, now used only historically), **the Shattered Reach** or simply **the Reach**. Formerly a single landmass, now a scattered archipelago of several thousand islands, skerries, and half-drowned peaks in the world's southeastern sea.
+
+Vhonoris was, for centuries, the world's preeminent seat of magical scholarship. Its bedrock sat atop an unusually dense confluence of ley-lines (six major convergences by the old cartographers' count, more than any other landmass) which made it both the most magically fertile soil in the world and, in hindsight, the most dangerous place to build a civilization. Its cities were raised on and around these convergences the way other nations build around rivers: **Cael Vhon**, the capital, sat directly atop the largest confluence so potent that ordinary stone buildings there needed no mortar, only correctly-inscribed foundation glyphs, to hold themselves together.
+
+The continent was fertile, temperate, mountainous in its spine and lush along its coasts, and it exported magical expertise the way other nations export grain: enchanted goods, trained battle-mages, alchemical reagents, and scholars-for-hire were Vhonoris's primary trade goods for the better part of four centuries. Its universities were considered the finest anywhere, and a Vhonic education was, for a time, the single most valuable credential a mage could hold.
+
+What remains of Vhonoris is referred to only by its aftermath.
         `
       },
       {
@@ -105,7 +110,16 @@ The Reach's economy runs, out of necessity, on what the water provides and what 
 - **Dye and lacquer work**, produced from a handful of hardy coastal and shard-growing plants, is common enough to overlap somewhat with the Reach's neighboring trade partners, though Reach lacquerware, waterproofed by necessity, often decorated with patterns derived from channel-maps — is distinctive enough to be recognized on sight in foreign ports.
 - **Pilotage**, as noted above, is sold as a service in its own right: local pilots who know a given stretch of channel or Mist-bank are hired by outside traders for single crossings, and a reputation as a reliable pilot is one of the few forms of individual wealth-building available to someone without land, boat-fleet, or salvage rights.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [The Driftfolk of the Shattered Reach](entry.html?c=peoples&id=driftfolk): The Rohai are the Reach's boat-dwelling salvage people, shaped by the Sundering
+- [The Waygates, and the Veil](entry.html?c=magic-systems&id=waygates): The Wild Water and Mist complicate Waygate crossings near the Reach
+- [Weaving](entry.html?c=magic-systems&id=weaving): Weaving is the Crown's deliberately reformed descendant of Vhonoris's old ley-binding
+- [Windwork](entry.html?c=magic-systems&id=windwork): Kyrite unsettles Witchlands windworkers the way the Wild Water unsettles Reach sailors
+        `
+      },
     ]
   }
 );

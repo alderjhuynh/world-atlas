@@ -4,18 +4,15 @@ window.WORLD_DATA["magic-systems"].push(
     title: "Windwork",
     subtitle: "The Wind-Craft of the Witchlands",
     summary: "The magical tradition of the Witchlands: Ambient charge rides the moving air, and a caster shapes it with trained breath. Magic in the Witchlands behaves exactly like the weather, because it is the weather.",
-    tags: ["witchlands", "windwork", "breath groups", "four-phase cycle", "storm-work", "the Veil", "bow-singing"],
-    // coverImage: "assets/images/windwork.jpg",
+    tags: ["witchlands","windwork","breath groups","four-phase cycle","storm-work","the Veil","bow-singing"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
-**Windwork**, or, in the casting register of Aurathil, **au-set**, literally "wind-rising". The general term, used by Witchlanders and outsiders alike, for the magical tradition practiced across the Witchlands. Not a school, not a discipline with a name it agreed on for itself, but the closest thing outsiders have found to a single word for what every coven's spellcasters, however differently trained, are actually doing.
+**Windwork**, or, in the casting register of [Aurathil](entry.html?c=languages&id=aurathil), **au-set**, literally "wind-rising". The general term, used by Witchlanders and outsiders alike, for the magical tradition practiced across [the Witchlands](entry.html?c=continents&id=the-witchlands). Not a school, not a discipline with a name it agreed on for itself, but the closest thing outsiders have found to a single word for what every coven's spellcasters, however differently trained, are actually doing.
 
-### What Outsiders Assume
-
-Foreign accounts of Witchlands magic tend to arrive with the assumptions of wherever they're written: a Vhonic-trained observer looks for ley-lines and finds none; a Kyrai trader looks for something like kyrite to buy and finds nothing anyone will sell; a scholar of the old Vhonoris tradition, hearing that Witchlands casters need no university, no license, and no fixed working-site, tends to conclude, usually within a season of actually watching one work, that what they're seeing is either a much shallower magic than what they're used to, or a much older one. Neither guess is quite right. Windwork is not diluted ley-craft. It draws on nothing that pools, nothing that can be mined, bottled, or bled. It is built, from its theory to its risks to its social consequences, on a single premise: that magic in the Witchlands behaves exactly like the weather, because it *is* the weather, or close enough to it that the distinction has never seemed worth insisting on locally.
+Foreign accounts of Witchlands magic tend to arrive with the assumptions of wherever they're written: a Vhonic-trained observer looks for ley-lines and finds none: a Kyrai trader looks for something like [kyrite](entry.html?c=magic-systems&id=kyrite) to buy and finds nothing anyone will sell; a scholar of the old [Vhonoris](entry.html?c=continents&id=shattered-reach) tradition, hearing that Witchlands casters need no university, no license, and no fixed working-site, tends to conclude, usually within a season of actually watching one work, that what they're seeing is either a much shallower magic than what they're used to, or a much older one. Neither guess is quite right. Windwork is not diluted ley-craft. It draws on nothing that pools, nothing that can be mined, bottled, or bled. It is built, from its theory to its risks to its social consequences, on a single premise: that magic in the Witchlands behaves exactly like the weather, because it *is* the weather, or close enough to it that the distinction has never seemed worth insisting on locally.
         `
       },
       {
@@ -103,7 +100,7 @@ Witchlands casters who hire out their services for a season tend to find their s
 
 The one place Windwork translates abroad better than at home is the deck of a ship, and Coastal Fringe captains have known this longer than almost any other foreign employer. A storm-worker stationed at the bow, casting *tai* directly into an oncoming headwind or a building squall, can peel a working gust away from the sail and rigging entirely, or bend a following wind just enough to shave real time off a crossing, and unlike a windless room, a ship's open deck gives a Witchlands caster exactly the moving air their training assumes. Foreign sailors call the practice **bow-singing**, for the low, sustained breathy chant a caster keeps up across chained breath groups for as long as the weather demands it, sometimes hours at a stretch, handed off between two or three casters trading the working back and forth so no single chest has to carry it alone. It is dangerous work in the ordinary Windwork sense, a long crossing in bad weather is nothing but breath-group transitions strung end to end, each one a chance for the working to slip, and a bow-singer who loses the thread mid-storm can lose considerably more than the wind they were holding. It is also, not coincidentally, some of the best-paid seasonal work a caster can hire out for, and an *auraea* with a reputation for bringing a ship through a bad crossing intact rarely wants for a berth the following season, coven's misgivings about the practice notwithstanding.
 
-The one crossing that gives Windworkers real, specific trouble is the Veil. Guides who've led Witchlands casters through report the same reaction more consistently than almost anything else about the crossing: the Veil has no wind at all, none, in any direction, for the length of the walk, and a trained caster's breath-sense, tuned since childhood to a current that's always doing *something*, reads that total stillness as closer to sensory deprivation than to Stillcraft's cultivated calm. Most cross once, professionally, and describe it afterward the way a sighted person might describe true darkness: wrong in a way that's hard to stop noticing.
+The one crossing that gives Windworkers real, specific trouble is [the Veil](entry.html?c=magic-systems&id=waygates). Guides who've led Witchlands casters through report the same reaction more consistently than almost anything else about the crossing: the Veil has no wind at all, none, in any direction, for the length of the walk, and a trained caster's breath-sense, tuned since childhood to a current that's always doing *something*, reads that total stillness as closer to sensory deprivation than to Stillcraft's cultivated calm. Most cross once, professionally, and describe it afterward the way a sighted person might describe true darkness: wrong in a way that's hard to stop noticing.
         `
       },
       {
@@ -113,7 +110,16 @@ The one crossing that gives Windworkers real, specific trouble is the Veil. Guid
 
 In the casting register: *Aura-ea-ir au-dur-m tai-set-ash-kho*, "wind's-daughter, storm as object, windward, rising-into-full-gust, sensed-on-the-wind". The same construction as the grammar's own worked example, because there is, in practice, no difference between describing the casting and performing it. The breathy **-kho** carries as long as her breath group holds; if the storm doesn't answer by the time she needs a second breath, she chains a new group, riskier now, since the transition is exactly where a *tai*-cast working is most likely to slip. If it holds through Falling instead of dropping raw, the squall bends off, dying down rather than breaking apart violently overhead, and everyone camped nearby will, by tomorrow, simply call her *auraea* a little more readily than they did yesterday. Nothing about the sentence changes.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [The Witchlands](entry.html?c=continents&id=the-witchlands): Windwork is the magical tradition practiced across the Witchlands
+- [Aurathil](entry.html?c=languages&id=aurathil): Aurathil's grammar directly encodes Windwork's own breath-group and aspect mechanics
+- [Kyrite and Kinwork](entry.html?c=magic-systems&id=kyrite): Kyrite unsettles trained Windworkers, who read it as charge that has forgotten how to let go
+- [The Waygates, and the Veil](entry.html?c=magic-systems&id=waygates): The Veil's total stillness is uniquely disorienting to a Windworker's trained breath-sense
+        `
+      },
     ]
   }
 );

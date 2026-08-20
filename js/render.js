@@ -6,6 +6,12 @@ function getCollectionMeta(key) {
   return (window.WORLD_CONFIG.collections || []).find(c => c.key === key);
 }
 
+// "Featured" collections (e.g. The World) are handled separately — front and
+// center on the index — and are excluded from the category nav and grid.
+function getNavCollections() {
+  return (window.WORLD_CONFIG.collections || []).filter(c => !c.featured);
+}
+
 function getEntries(key) {
   const data = window.WORLD_DATA || {};
   return data[key] || [];
@@ -31,7 +37,7 @@ function renderMarkdown(md) {
 }
 
 function renderHeader(activeKey) {
-  const collections = window.WORLD_CONFIG.collections || [];
+  const collections = getNavCollections();
   const links = collections.map(c => `
     <a href="collection.html?c=${c.key}" class="nav-link${c.key === activeKey ? " is-active" : ""}">${c.label}</a>
   `).join("");
@@ -128,7 +134,7 @@ function initFooterEasterEgg(footer) {
 }
 
 function renderCollectionsGrid() {
-  const collections = window.WORLD_CONFIG.collections || [];
+  const collections = getNavCollections();
   return collections.map(c => {
     const count = getEntries(c.key).length;
     const countLabel = count === 0 ? "No entries yet" : `${count} ${count === 1 ? c.singular : c.singular + "s"}`;
@@ -141,6 +147,31 @@ function renderCollectionsGrid() {
       </a>
     `;
   }).join("");
+}
+
+function renderWorldFeature() {
+  const collection = (window.WORLD_CONFIG.collections || []).find(c => c.featured);
+  if (!collection) return "";
+  const entries = getEntries(collection.key);
+  if (entries.length === 0) return "";
+  const entry = entries[0];
+
+  const cover = entry.coverImage
+    ? `<div class="world-card-cover" style="background-image:url('${entry.coverImage}')"></div>`
+    : `<div class="world-card-cover world-card-cover--empty"><span>${window.ICONS[collection.icon] ? window.ICONS[collection.icon]() : window.ICONS.compass()}</span></div>`;
+  const tags = (entry.tags || []).slice(0, 6).map(t => `<span class="chip">${t}</span>`).join("");
+
+  return `
+    <a class="world-card" href="entry.html?c=${collection.key}&id=${entry.id}">
+      ${cover}
+      <div class="world-card-body">
+        <span class="specimen-tag">${entry.subtitle || collection.singular}</span>
+        <h2 class="world-card-title">${entry.title}</h2>
+        ${entry.summary ? `<p class="world-card-summary">${entry.summary}</p>` : ""}
+        <div class="chip-row">${tags}</div>
+      </div>
+    </a>
+  `;
 }
 
 function renderEntryCard(collectionKey, entry) {

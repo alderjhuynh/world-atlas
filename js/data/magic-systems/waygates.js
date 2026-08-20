@@ -4,16 +4,13 @@ window.WORLD_DATA["magic-systems"].push(
     title: "The Waygates, and the Veil",
     subtitle: "System of Wayfaring",
     summary: "Ring-built stone structures found in matched sets across every known continent, popularly understood as instantaneous travel points, which is functionally true, and not remotely what actually happens.",
-    tags: ["waygates", "the veil", "soulflow", "waywardens", "travel"],
-    // coverImage: "assets/images/waygates.jpg",
+    tags: ["waygates","the veil","soulflow","waywardens","travel"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
 **Waystone**, **Waygate**, used interchangeably in nearly every language on the planet, with no meaningful distinction between the terms depending on region. Ring-built stone structures found in matched sets across every known continent, popularly understood as instantaneous travel points: step into one, step out of another, arrive with no meaningful time lost. This is, functionally, true. It is also not remotely what actually happens.
-
-### What Travelers Believe
 
 Ask any ordinary traveler what a Waygate does and the answer is short: you walk in one ring, and you walk out another, sometimes a continent away, and somehow no real time has passed in between. Most people who use a Waygate in their lifetime, and most people do, at least once, never learn or ask for more than that. It is treated, socially, the way a well-worn bridge or a ferry crossing is treated: a known, trusted, unremarkable convenience with a toll and a schedule. That most travelers cross an entire hostile dimension to get there and never notice is, by most accounts, the safest possible outcome of the crossing.
         `
@@ -64,7 +61,7 @@ Every account of the Veil, regardless of who is telling it or where they're from
 - **The voice.** A presence, never clearly seen, that repeats, calmly and at length, that it intends to kill the traveler, without ever doing so, for as long as the traveler remains within earshot.
 - **The screaming.** A sound, unmistakably human, coming from no identifiable source or direction, that some travelers report as constant and others report only in intervals; no expedition has ever located its origin, or confirmed whether it is one voice or many.
 
-What none of the world's traditions can agree on is what, exactly, these experiences *are*. The dominant folk explanation, held in some form nearly everywhere Waygates are used, is that they are hallucinations, a mind's breakdown under exposure to a place it was never built to survive in, no different in kind from fever-visions, only stranger in content. A significant minority position, held seriously by several old scholarly and religious traditions (and taken considerably more seriously by anyone who has personally experienced the vision of their own death and later watched some detail of it come true), holds instead that the Veil-sickness is a form of clairvoyance or precognition, a side effect of standing somewhere that isn't fully bound by ordinary time or causality, and that the visions, doubles, and voices are not fabrications at all, only things a living mind isn't equipped to properly interpret.
+What none of the world's traditions can agree on is what, exactly, these experiences *are*. The dominant folk explanation, held in some form nearly everywhere Waygates are used, is that they are hallucinations, a mind's breakdown under exposure to a place it was never built to survive in, no different in kind from fever-visions, only stranger in content. A significant minority position, held seriously by several old scholarly and religious traditions (and taken considerably more seriously by anyone who has personally experienced the vision of their own death and later watched some detail of it come true), holds instead that the Veil-sickness is a form of clairvoyance or precognition, a side effect of standing somewhere that isn't fully bound by ordinary time or causality, and that the visions, doubles, and voices are not fabrications at all, only things a living mind isn't equipped to properly interpret. 
 
 Guides everywhere train travelers, sometimes without explaining why, to move quickly, keep their eyes down or on the guide, and never answer if something starts talking to them.
         `
@@ -104,13 +101,22 @@ A Waygate whose paired gate has been destroyed, lost, or simply never found agai
         markdown: `
 Attitudes toward Waygates vary sharply by region, generally in proportion to how that region already relates to magic and institutional authority.
 
-In **the Shattered Reach**, where the memory of one catastrophic magical working still shapes nearly every local attitude toward large-scale magic, Waygates are used, but grudgingly, and never near the Drowned Marches; more than one Reach community has quietly let a known crossing fall out of use rather than risk it interacting badly with the Wild Water nearby.
+In **[the Shattered Reach](entry.html?c=continents&id=shattered-reach)**, where the memory of one catastrophic magical working still shapes nearly every local attitude toward large-scale magic, Waygates are used, but grudgingly, and never near the Drowned Marches; more than one Reach community has quietly let a known crossing fall out of use rather than risk it interacting badly with the Wild Water nearby.
 
-In **the Witchlands**, true long-distance Waygates are rare, not because the Witchlands distrusts the magic involved (spellcasters there are, if anything, unusually comfortable with it) but because a Waygate crossing, guarded, tolled, and controlled by whichever Waywardens happen to hold it, is exactly the kind of fixed, institution-adjacent chokepoint the Witchlands' stateless, roving culture tends to route around rather than rely on. Where a crossing does exist there, it is more likely to be held loosely by a rotating arrangement between neighboring covens than by any single permanent guild, and it is treated with the same wary, personal-reputation-based trust the Witchlands extends to everything else.
+In **[the Witchlands](entry.html?c=continents&id=the-witchlands)**, true long-distance Waygates are rare, not because the Witchlands distrusts the magic involved (spellcasters there are, if anything, unusually comfortable with it) but because a Waygate crossing, guarded, tolled, and controlled by whichever Waywardens happen to hold it, is exactly the kind of fixed, institution-adjacent chokepoint the Witchlands' stateless, roving culture tends to route around rather than rely on. Where a crossing does exist there, it is more likely to be held loosely by a rotating arrangement between neighboring covens than by any single permanent guild, and it is treated with the same wary, personal-reputation-based trust the Witchlands extends to everything else.
 
 In more settled, institutional regions, Waygates are frequently formalized entirely: taxed, licensed, sometimes fought over as strategic infrastructure, their Waywardens organized into guilds with their own internal hierarchies, secrecy customs, and closely guarded training lineages, the practical value of a mastered crossing being, in the most literal sense, incalculable.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [Seabreeze](entry.html?c=continents&id=seabreeze): Seabreeze's Broken Gate is the one documented case of a Waygate failing rather than simply losing its pair
+- [The Shattered Reach](entry.html?c=continents&id=shattered-reach): The Reach's Wild Water and Mist complicate Waygate crossings near old convergence-sites
+- [Windwork](entry.html?c=magic-systems&id=windwork): Witchlands casters find the Veil's total stillness uniquely disorienting to their breath-sense
+- [The Driftfolk of the Shattered Reach](entry.html?c=peoples&id=driftfolk): The Rohai regard all magic, Waygate crossings included, with deep practical wariness after the Sundering
+        `
+      },
     ]
   }
 );

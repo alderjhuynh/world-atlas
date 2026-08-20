@@ -1,4 +1,9 @@
 window.ICONS = {
+  globe: () => `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="24" cy="24" r="17"/>
+    <path d="M7 24h34"/>
+    <path d="M24 7c-6 6-6 28 0 34M24 7c6 6 6 28 0 34"/>
+  </svg>`,
   quill: () => `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
     <path d="M38 8C24 12 14 22 10 38c8-2 15-6 20-12"/>
     <path d="M38 8c2 6-1 14-8 20"/>
@@ -32,6 +37,12 @@ window.ICONS = {
     <path d="M12 42h24"/>
     <path d="M14 6c0 9 8 11 10 12 2-1 10-3 10-12"/>
     <path d="M14 42c0-9 8-11 10-12 2 1 10 3 10 12"/>
+  </svg>`,
+  orbits: () => `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="24" cy="24" r="17"/>
+    <ellipse cx="24" cy="24" rx="17" ry="6" transform="rotate(-25 24 24)"/>
+    <ellipse cx="24" cy="24" rx="17" ry="6" transform="rotate(25 24 24)"/>
+    <circle cx="24" cy="24" r="1.8" fill="currentColor" stroke="none"/>
   </svg>`,
   compass: () => `<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="24" cy="24" r="17"/>

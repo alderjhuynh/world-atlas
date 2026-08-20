@@ -1,17 +1,20 @@
-window.WORLD_DATA.continents.push(
+window.WORLD_DATA["continents"].push(
 {
     id: "the-northern-wastes",
     title: "The Northern Wastes",
     subtitle: "The North",
     summary: "The arctic upper reach of the Crown's landmass, an expanse of ice, black rock, and wind-scoured tundra held loosely by a scatter of clan-based splinter tribes, with one improbable, flower-choked crescent tucked into its middle that stays ice-free and habitable year-round.",
-    tags: ["the North", "splinter tribes", "the Bright", "the Dark", "longships", "rune-sticks", "the Vosarai", "bay", "ice"],
-    // coverImage: "assets/images/the-northern-wastes.jpg",
+    tags: ["the North","splinter tribes","the Bright","the Dark","longships","rune-sticks","the Vosarai","bay","ice"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
-**The Northern Wastes**, or, in the clipped, mildly dismissive shorthand used by the crowned court a continent's length south of them, simply **the North**, treated grammatically the way a capital treats any frontier it doesn't have to think about: present on the map, absent from the budget. The Wastes make up the whole upper reach of the same landmass the reigning house calls **the Crown**, for the same crown that has sat on the same line of heads for longer than any Wastes-born clan bothers keeping count of; that southern realm, its courts, its wars, its long reach into Kyre, is its own subject and isn't this entry's business. What concerns this entry is everything north of where the Crown's maps stop being drawn with any real confidence, an arctic expanse of ice, black rock, and wind-scoured tundra that no southern administration has ever governed so much as nominally claimed, and one improbable, flower-choked crescent tucked into the middle of it that the rest of the Wastes regards as something between a miracle and a rumor.
+**The Northern Wastes**, or, in the clipped, mildly dismissive shorthand used by the crowned court a continent's length south of them, simply **the North**, treated grammatically the way a capital treats any frontier it doesn't have to think about: present on the map, absent from the budget. The Wastes make up the whole upper reach of the same landmass the reigning house calls **[the Crown](entry.html?c=kingdoms&id=the-crown)**, for the same crown that has sat on the same line of heads for longer than any Wastes-born clan bothers keeping count of; that southern realm, its courts, its wars, its long reach into [Kyre](entry.html?c=continents&id=kyre), is its own subject and isn't this entry's business. What concerns this entry is everything north of where the Crown's maps stop being drawn with any real confidence, an arctic expanse of ice, black rock, and wind-scoured tundra that no southern administration has ever governed so much as nominally claimed, and one improbable, flower-choked crescent tucked into the middle of it that the rest of the Wastes regards as something between a miracle and a rumor.
+
+The Wastes are old, cold, and largely indifferent to the distinction between land and ice. The southern edge, where the tundra first gives way to permafrost proper, is brutal: frozen half the year, boggy and biting with insects the other half, growing nothing taller than scrub and lichen. Further north, the ground stops pretending to be arable at all, and the Wastes become what the rest of the world actually pictures when the name comes up: glacier-fields, wind-carved ice-barrens, and a coastline of black cliffs calving bergs into water cold enough to kill an unprepared swimmer in minutes. Almost nothing grows here without the sort of shelter the land itself is unwilling to provide, which is precisely what makes the [Vosarai](entry.html?c=peoples&id=vosarai) crescent as strange a fact of geography as it is a fact of culture.
+
+The one substantial exception to the Wastes' general hostility to life is the **bay** the Vosarai and their neighbors both fish and sail: a deep, ice-free inlet that stays open year-round thanks to a warm current running up from the south, and that connects, eventually, to the ocean shipping lanes the rest of the world actually uses. Every settlement of any real size in the Wastes, tribal or otherwise, sits within a hard week's travel of that bay or one of its smaller sister-inlets, not out of preference so much as necessity: it is the only reliable source of open water, and therefore of fish, trade, and any contact with anyone who isn't also freezing.
         `
       },
       {
@@ -41,7 +44,7 @@ The aurora that regularly lights the winter sky, called by outsiders simply **th
       {
         heading: "The Splinter Tribes",
         markdown: `
-Outside the crescent, the Wastes are held, loosely and unevenly, by a scatter of clan-based peoples the Common Language lumps together, not always accurately, as the **splinter tribes**, a name that reflects how the region looks on a map, dozens of small, isolated coastal and inland holds rather than any single nation, more than it reflects anything the tribes themselves would claim in common. No Wastes clan answers to another, and none has ever answered, in any binding sense, to the Crown, whose maps claim the whole territory as a northern march of the realm and whose actual administrative presence north of the permafrost line consists of a handful of fortified trading posts, garrisoned thinly, and generally left to work out their own arrangements with whichever clan happens to hold the nearest coastline.
+Outside the crescent, the Wastes are held, loosely and unevenly, by a scatter of clan-based peoples [the Common Language](entry.html?c=languages&id=common) lumps together, not always accurately, as the **splinter tribes**, a name that reflects how the region looks on a map, dozens of small, isolated coastal and inland holds rather than any single nation, more than it reflects anything the tribes themselves would claim in common. No Wastes clan answers to another, and none has ever answered, in any binding sense, to the Crown, whose maps claim the whole territory as a northern march of the realm and whose actual administrative presence north of the permafrost line consists of a handful of fortified trading posts, garrisoned thinly, and generally left to work out their own arrangements with whichever clan happens to hold the nearest coastline.
 
 ### What the Tribes Share
 
@@ -50,7 +53,7 @@ Despite the real differences between them, in dialect, in specific ancestor-lore
 - **Clan-hall living.** The basic social unit is the **hall**, an extended kin-group of some dozens to low hundreds sharing a single longhouse or cluster of them, built low, timber-and-turf or, on the coast, whale-bone-framed, and oriented for surviving the Long Dark together rather than for anything resembling privacy. A hall's authority rests with its **hall-father** or **hall-mother**, a title earned by demonstrated competence and the hall's own collective will rather than strict birthright, though the eldest capable child of a strong hall-parent is favored by custom, not by law.
 - **Ice-craft and sea-craft.** Nearly every hall of any size maintains its own longships, hulls reinforced for ice-choked water and built shallow enough to be dragged over pack ice by hand when open water runs out, a skill and a vessel type found nowhere else in the world in quite the same form. Whaling, seal-hunting, and raiding along the coast are all conducted with the same ships, by the same crews, and a young Wastes-born adult's first real standing in a hall is usually earned on one of the three.
 - **Oath and blood-price.** Disputes between halls are settled, when they can be, by a formal exchange of **oath-goods**, and a killing between halls, deliberate or not, is settled by a **blood-price** paid in furs, worked iron, or standing service, negotiated hall-to-hall with no outside authority to appeal to if the negotiation fails. A blood-feud left unsettled by price is understood, by every clan alike, to run until someone dies to close it or both halls simply agree, exhausted, to let it lapse.
-- **The carved word.** Where the Vosarai keep record in dye and the Rohai in knotted cord, the splinter tribes keep record in **rune-sticks**: short lengths of bone, antler, or hardwood, incised with a shared, if regionally inflected, system of angular marks used for oaths, boundary claims, and short genealogical tallies. A rune-stick is not considered binding on its own; it is a memory aid for a claim that must also be spoken aloud, by a living witness, to carry any real weight in a dispute, which keeps the tribes' actual legal culture closer to the Rohai's spoken-testimony habits than to anything a literate southern court would recognize as a written record.
+- **The carved word.** Where the Vosarai keep record in dye and the [Rohai](entry.html?c=peoples&id=driftfolk) in knotted cord, the splinter tribes keep record in **rune-sticks**: short lengths of bone, antler, or hardwood, incised with a shared, if regionally inflected, system of angular marks used for oaths, boundary claims, and short genealogical tallies. A rune-stick is not considered binding on its own; it is a memory aid for a claim that must also be spoken aloud, by a living witness, to carry any real weight in a dispute, which keeps the tribes' actual legal culture closer to the Rohai's spoken-testimony habits than to anything a literate southern court would recognize as a written record.
 - **Ancestor-halls and the drowned dead.** The dead of a hall are honored at a shared **ancestor-bench**, a carved wall or row of standing timbers inside or just outside the hall proper, one mark added per notable ancestor rather than per death, roughly comparable in social function, if not in form, to a Vosarai root-shrine or a Rohai Long Tally, though the tribes would find both of those comparisons a little too tidy for their own taste. A hall-member lost at sea and never recovered is marked differently, and more gravely, than one who dies ashore, on the widespread local belief that the sea does not give back what the Wastelight has already claimed for its own reasons.
 
 ### Named Peoples, in Brief
@@ -82,7 +85,16 @@ Beyond the crescent's dye and flowers, already documented, the wider Wastes expo
 
 None of this trade moves through any single, Crown-administered channel. It moves hall to ship to buyer, negotiated locally, carried out through the bay or one of its smaller sister-inlets, and taxed by the Crown's customs post only to the modest degree any given captain judges worth paying rather than risking the alternative. The Wastes, in this respect as in most others, have never much needed the Crown's permission to keep doing what they were doing before anyone south of the permafrost line thought to claim the land at all.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [The Vosarai, Mouth of Flowers](entry.html?c=peoples&id=vosarai) — The Vosarai crescent is the Wastes' one flower-choked exception to the general hostility to life
+- [Vosarin](entry.html?c=languages&id=vosarin) — Vosarin is the language of the crescent's people
+- [The Crown](entry.html?c=kingdoms&id=the-crown) — The Crown holds only a nominal, seasonal claim on the Wastes
+- [The Driftfolk of the Shattered Reach](entry.html?c=peoples&id=driftfolk) — The Rohai's stateless, reckoning-based culture is a useful point of comparison
+        `
+      },
     ]
   }
 );

@@ -1,17 +1,18 @@
-window.WORLD_DATA.continents.push(
+window.WORLD_DATA["continents"].push(
 {
     id: "vaelmourn",
-    title: "Vaelmourn",
+    title: "Vaelmourn, the Bonelands",
     subtitle: "The Bonelands",
     summary: "A continent in the world's northeast raised not on rock but on the fossilized, still-standing remains of Vaelkyr, a dragon believed to have been a god; here the ribs are mountain ranges, the spine is a continental ridge, and the ground under every town used to be alive.",
-    tags: ["the Bonelands", "Vaelkyr", "dead god", "bonewrighting", "marrow", "ichor", "the Choir", "northeastern continent"],
-    // coverImage: "assets/images/vaelmourn.jpg",
+    tags: ["the Bonelands","Vaelkyr","dead god","bonewrighting","marrow","ichor","the Choir","northeastern continent"],
 
     sections: [
       {
         heading: "Overview",
         markdown: `
 **Vaelmourn**, or simply **the Bonelands**, the name used almost universally, including by the people who actually live there, the formal name being reserved mostly for treaties, hymnals, and the occasional pompous merchant's letterhead. Named for **Vaelkyr**, the dragon believed by nearly every faith that acknowledges the continent's existence to have been, in truth, a god, or near enough to one that the distinction stopped mattering the day it died. A landmass raised not on rock, but on the fossilized, still-standing remains of the single largest creature ever to have existed, in the world's northeast, where its corpse has lain, slowly becoming a continent, for longer than any calendar in current use can account for.
+
+No one alive witnessed Vaelkyr's death, and no myth agrees on how it happened, only that it did, and that the body did not simply rot away the way a smaller creature's would. Instead, over some incalculable span of time, soil gathered in the hollows of its frame, rain filled the basin of its ribcage, and life, ordinary and otherwise, took root on a scale that eventually made the difference between "corpse" and "continent" a matter of perspective rather than fact. The bones did not decay so much as **weather**, the way a mountain range weathers, and what's left today functions, geologically, exactly like the terrain it resembles: the ribs are mountain ranges, the spine is a continental ridge, and people build towns on them the same unthinking way they'd build on any other high ground, difference being that the ground, here, used to be alive.
         `
       },
       {
@@ -98,7 +99,15 @@ A fourth, informal pillar is **pilgrimage tourism**: a steady stream of religiou
         markdown: `
 Vaelmourn has never had, and shows no particular interest in acquiring, a single continental government. Political authority sits with individual city- and rib-holds, each self-governing, loosely federated with their nearest neighbors along a shared bone or basin, and bound together more by the Choir's informal mediating presence and a shared, genuine reverence for the ground everyone's standing on than by any formal treaty. Disputes between holds, over a newly opened marrow-cavern or a contested pilgrim-road toll, are common, usually minor, and resolved, more often than not, by Choir arbitration, precedent, or the simple, practical fact that nobody wants to be remembered as the hold that started a war on top of a dead god.
         `
-      }
+      },
+      {
+        heading: "Related Notes",
+        markdown: `
+- [Marrowcraft](entry.html?c=magic-systems&id=marrowcraft): Marrowcraft covers the harvesting and grading of marrow and ichor in technical detail
+- [The Serevain](entry.html?c=peoples&id=serevain): The Serevain are Vaelmourn's rib-top people, living directly on Vaelkyr's bones
+- [Weaving](entry.html?c=magic-systems&id=weaving): Weavers occasionally work alongside Vaelmourn's bonewrights and kinstone traditions
+        `
+      },
     ]
   }
 );
