@@ -24,9 +24,6 @@ const COLLECTION_BY_FOLDER = {
   peoples: "peoples",
 };
 
-// md H1 title -> entry id. Existing entries keep their current id; the old
-// "calendars" entry was renamed "Reckoning" in the vault, so it moves to
-// history/reckoning.js.
 const TITLE_TO_ID = {
   "Vaelkin": "vaelkin",
   "Medicinal Flora": "medicinal-flora",
@@ -56,21 +53,19 @@ const TITLE_TO_ID = {
   "The Vhonic Magelords": "vhonic-magelords",
   "Split Soul": "split-soul",
   "The World": "the-world",
+  "Simulacrum": "simulacrum",
+  "Silthil": "silthil",
+  "Pneuma": "pneuma",
 };
 
-// Old id -> new id for entries that were renamed in the vault.
 const RENAMES = { calendars: "reckoning" };
 
-// When an existing JS section heading doesn't match any md heading by name,
-// map it to the md heading it actually corresponds to.
 const SECTION_ALIASES = {
   "shattered-reach": {
     "Before the Sundering": "Geological Background, Before",
   },
 };
 
-// Hand-written metadata for brand-new entries (the vault carries no
-// summary/tags/subtitle, only body text).
 const NEW_META = {
   vaelkin: {
     subtitle: "The Doctrine of the Dead God",
@@ -134,10 +129,59 @@ const NEW_META = {
       "A working index of everything documented so far: seven continents, the peoples and languages native to them, the magic traditions that set this setting apart, and the shared history that ties it together.",
     tags: ["index", "overview", "the world"],
   },
+  simulacrum: {
+    subtitle: "The Name for What Waits Beyond the Veil",
+    summary:
+      "A Starhold scholarly convention for the only consistent evidence that something on the far side of the Waygates is not a feature of the Veil but a party within it: the calm, unceasing voice every crosser hears promising to kill them, never seen, never varied, never disproven.",
+    tags: [
+      "Simulacrum",
+      "the Veil",
+      "Waygates",
+      "Soulflow",
+      "Starhold",
+      "Seabreeze",
+      "Weaving",
+      "Windwork",
+      "Split Soul",
+      "the voice",
+      "cosmology",
+    ],
+  },
+  silthil: {
+    subtitle: "The Still Tongue",
+    summary:
+      "The signed modality of Aurathil, sharing its full grammar, realized through handshape, location, and movement rather than sound and breath. Born twice, once as Stillcraft stealth-teams' silent coordination and once as Deaf Witchlanders' full access to coven life, built on held-frames and stillness where Aurathil is built on breath, and the only modality that can cast Stillcraft without audible trace.",
+    tags: [
+      "Silthil",
+      "Aurathil",
+      "Witchlands",
+      "signed language",
+      "Stillcraft",
+      "evidentiality",
+      "noun classes",
+      "Windwork",
+      "the Witchlands",
+    ],
+  },
+  pneuma: {
+    subtitle: "The Hypothetical Root-Practice",
+    summary:
+      "Not a living tradition but a scholar's hypothesis that every documented magical practice is a regional, culturally-shaped descendant of one older, direct way of handling the underlying substance before it settled.",
+    tags: [
+      "Pneuma",
+      "Weaving",
+      "Windwork",
+      "Kyrite",
+      "Marrowcraft",
+      "Split Soul",
+      "Waygates",
+      "Soulflow",
+      "the Loom",
+      "convergences",
+      "theory",
+    ],
+  },
 };
-
-// ---------------------------------------------------------------------------
-// Helpers
 
 function collectEntryFiles(dir) {
   const files = [];
@@ -196,9 +240,6 @@ function matchNorm(s) {
   return normalize(String(s).replace(/^\s*\d+(\.\d+)?\.\s+/, ""));
 }
 
-// ---------------------------------------------------------------------------
-// Wiki-links
-
 const WIKI_RE = /\[\[([^\]]+)\]\]/g;
 
 function convertWikiLinks(text, registry, plainOnly) {
@@ -219,9 +260,6 @@ function convertWikiLinks(text, registry, plainOnly) {
     })
     .join("");
 }
-
-// ---------------------------------------------------------------------------
-// Markdown parsing
 
 function splitBlocks(lines) {
   const blocks = [];
@@ -273,9 +311,6 @@ function cleanHeading(rawHeading, registry) {
   return t.trim();
 }
 
-// ---------------------------------------------------------------------------
-// Section assembly
-
 function isOverviewHeading(h) {
   return /^overview(\s+&.*)?$/i.test(h.trim());
 }
@@ -289,9 +324,6 @@ function isNumberedBlock(b) {
   return /^\s*\d/.test(b.raw || "");
 }
 
-// If every paragraph of a block starts with a **bold name** that matches one of
-// the existing JS section headings, split the block into per-name sections.
-// (Used for "Flower by Flower" in the dye-flowers entry.)
 function maybeSplitIntoParagraphs(block, existingHeadings) {
   const jsNorms = new Set(existingHeadings.map((h) => matchNorm(h)));
   const paras = block.content.split(/\n\s*\n/);
@@ -319,9 +351,6 @@ function findBlockForHeading(heading, blocks, entryId) {
 }
 
 function buildSections(md, existingSections, entryId, registry) {
-  // Clean md headings (strip numbering, resolve wiki-links to display text) so
-  // they can be matched against existing site headings. The raw heading is kept
-  // for numbered-section detection.
   const blocks = md.sections.map((b) => {
     const heading = b.heading === null ? null : cleanHeading(b.heading, registry);
     return { ...b, heading, raw: b.heading };
@@ -335,8 +364,6 @@ function buildSections(md, existingSections, entryId, registry) {
   const leading = firstNumbered === -1 ? [] : others.slice(0, firstNumbered);
   const body = firstNumbered === -1 ? others : others.slice(firstNumbered);
 
-  // New entries: Overview = intro + any leading (pre-numbered) block, then one
-  // section per remaining block, then Related Notes.
   if (!existingSections || !existingSections.length) {
     const out = [];
     const overviewParts = [intro, ...leading.map((b) => b.content)].filter((c) => c && c.trim());
@@ -348,9 +375,6 @@ function buildSections(md, existingSections, entryId, registry) {
     return out;
   }
 
-  // Existing entries: keep the current section headings, pull new body text
-  // (with links) from the md, then append Related Notes. Any previous run's
-  // generated "Related Notes" is ignored: it is always rebuilt from the md.
   const existingSections_ = existingSections.filter(
     (s) => !/^related notes$/i.test(String(s.heading).trim())
   );
@@ -401,14 +425,10 @@ function buildSections(md, existingSections, entryId, registry) {
     if (block) {
       out.push({ heading: sec.heading, markdown: block.content });
     } else {
-      // No matching md block: keep the existing body rather than lose content.
       out.push({ heading: sec.heading, markdown: (sec.markdown || "").trim() });
     }
   }
 
-  // Any md section that had no JS home gets appended in original order.
-  // Leading (pre-numbered) blocks belong to Overview and must never be appended
-  // as standalone sections, or they would accumulate across runs.
   for (const b of body) {
     if (expanded.has(b)) continue;
     if (!consumed.has(b)) {
@@ -420,8 +440,6 @@ function buildSections(md, existingSections, entryId, registry) {
   return out;
 }
 
-// ---------------------------------------------------------------------------
-// Rendering JS files
 
 function q(v) {
   return JSON.stringify(v);
@@ -460,8 +478,6 @@ function renderEntryFile(collection, entry, registry) {
   return lines.join("\n") + "\n";
 }
 
-// ---------------------------------------------------------------------------
-// Main
 
 function main() {
   if (!fs.existsSync(VAULT)) {
@@ -479,8 +495,6 @@ function main() {
 
   const mdFiles = collectMdFiles(VAULT).map((f) => ({ ...f, parsed: parseMd(f.raw) }));
 
-  // Registry: every canonical md title + every existing entry title resolves to
-  // {collection, id}.
   const registry = {};
   function register(title, collection, id) {
     const key = normalize(title);
@@ -500,7 +514,6 @@ function main() {
     const parts = key.split("/");
     register(e.title, parts[0], parts[1]);
   }
-  // Make cleanHeading able to see the registry.
   globalThis.__REGISTRY = registry;
 
   let written = 0;
@@ -517,7 +530,6 @@ function main() {
     const existingKey = `${collection}/${id}`;
     let existingEntry = existing[existingKey] || null;
     if (!existingEntry) {
-      // renamed entries (calendars -> reckoning)
       for (const [oldId, newId] of Object.entries(RENAMES)) {
         if (newId === id && existing[`${collection}/${oldId}`]) {
           existingEntry = existing[`${collection}/${oldId}`];
@@ -545,7 +557,6 @@ function main() {
     console.log(`WROTE ${path.relative(ROOT, outFile)}`);
   }
 
-  // Remove the renamed old entry file and its stale preview page.
   for (const [oldId, newId] of Object.entries(RENAMES)) {
     const oldFile = path.join(DATA_DIR, "history", `${oldId}.js`);
     const oldPage = path.join(ROOT, "history", `${oldId}.html`);

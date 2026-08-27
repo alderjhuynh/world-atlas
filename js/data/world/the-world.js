@@ -22,10 +22,10 @@ The seven landmasses, roughly ordered from most centrally governed to least.
 - [Kharsa, the Sunward March](entry.html?c=continents&id=kharsa): Dune sea and duneglass, held loosely by the Sun-Clans and more tightly by the Crown's way-forts. [Nominally a province of the Crown](entry.html?c=kingdoms&id=the-crown); home to Hallow Haven and the Cistern-Right.
 - [Seabreeze](entry.html?c=continents&id=seabreeze): A dying temperate coastal forest on the Crown's western edge, spreading outward from a single failing [Waygate](entry.html?c=magic-systems&id=waygates) at its heart. Held back from the Crown's heartland by a warded mountain line, the most famous standing [weave](entry.html?c=magic-systems&id=weaving) in the Six Kingdoms.
 - [The Northern Wastes](entry.html?c=continents&id=the-northern-wastes): Arctic tundra and ice-barrens claimed nominally by the Crown, held in practice by the splinter tribes and, in one improbable flower-choked crescent, by the [Vosarai](entry.html?c=peoples&id=vosarai).
-- [The Shattered Reach](entry.html?c=continents&id=shattered-reach): Once the continent of Vhonoris, seat of the world's magical scholarship; now a drowned archipelago of several thousand islands, shattered by the Sundering three generations ago. Home to the [Rohai](entry.html?c=peoples&id=driftfolk) and their floating markets.
+- [The Shattered Reach](entry.html?c=continents&id=shattered-reach): Once the continent of Vhonoris, seat of the world's magical scholarship; now a drowned archipelago of several thousand islands, shattered by the [Sundering](entry.html?c=history&id=the-sundering) three generations ago. Home to the [Rohai](entry.html?c=peoples&id=driftfolk) and their floating markets.
 - [The Witchlands](entry.html?c=continents&id=the-witchlands): A stateless grass sea with no crown, no capital, and no census, where authority is local, personal, and built entirely on standing. Home to [Aurathil](entry.html?c=languages&id=aurathil) and the [Windwork](entry.html?c=magic-systems&id=windwork) tradition.
 - [Kyre](entry.html?c=continents&id=kyre): Called abroad "the Continent of Beasts": a forested homeland of the animal-touched Kyrai, its coast forcibly occupied for its [kyrite](entry.html?c=magic-systems&id=kyrite) deposits, its free interior still unconquered.
-- [Vaelmourn, the Bonelands](entry.html?c=continents&id=vaelmourn): A continent raised on the fossilized remains of the dead god Vaelkyr, worked by [Marrowcraft](entry.html?c=magic-systems&id=marrowcraft) and settled, along its ribs, by the [Serevain](entry.html?c=peoples&id=serevain).
+- [Vaelmourn, the Bonelands](entry.html?c=continents&id=vaelmourn): A continent raised on the fossilized remains of the dead god Vaelkyr, rife with the [Vaelkin](entry.html?c=cosmologies&id=vaelkin) cosmology, worked by [Marrowcraft](entry.html?c=magic-systems&id=marrowcraft) and settled, along its ribs, by the [Serevain](entry.html?c=peoples&id=serevain).
         `
       },
       {
@@ -52,13 +52,13 @@ Cultures with their own dedicated entry. (Several other peoples, the Kyrai, the 
       {
         heading: "Magic Systems",
         markdown: `
-Five traditions, none of them interchangeable, and several of them openly incompatible with each other.
+Five traditions, none of them interchangeable, and several of them openly incompatible with each other, though all based on [Pneuma](entry.html?c=magic-systems&id=pneuma).
 
 - [Weaving](entry.html?c=magic-systems&id=weaving): The Six Kingdoms' formal, licensed, government-taught tradition; the reformed descendant of old Vhonic ley-binding, built entirely around a single rule: no Closed Knot.
 - [Windwork](entry.html?c=magic-systems&id=windwork): [The Witchlands'](entry.html?c=continents&id=the-witchlands) uninstitutionalized tradition of catching ambient charge off moving air; standing and reputation, not license, are the only credential it recognizes.
 - [Kyrite and Kinwork](entry.html?c=magic-systems&id=kyrite), The crystalline "manastone" mined from [Kyre](entry.html?c=continents&id=kyre), sold abroad as a battery and carved, by the Kyrai who actually understand it, into something closer to a spell with a permanent body.
 - [Marrowcraft](entry.html?c=magic-systems&id=marrowcraft): The mining, rendering, and rationing of fuel, medicine, and (rarely, dangerously) miracle from the remains of [Vaelkyr](entry.html?c=continents&id=vaelmourn) itself.
-- [The Waygates, and the Veil](entry.html?c=magic-systems&id=waygates): The world's shared, cross-continental travel network, and the dimension every crossing actually passes through, including the one failing at [Seabreeze's](entry.html?c=continents&id=seabreeze) heart.
+- [The Waygates, and the Veil](entry.html?c=magic-systems&id=waygates): The world's shared, cross-continental travel network that also deals with matters of the [Soul](entry.html?c=magic-systems&id=split-soul) and [Simulacrum](entry.html?c=cosmologies&id=simulacrum), and the dimension every crossing actually passes through, including the one failing at [Seabreeze's](entry.html?c=continents&id=seabreeze) heart.
         `
       },
       {
