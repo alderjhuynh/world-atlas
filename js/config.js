@@ -70,7 +70,7 @@ window.WORLD_CONFIG = {
     {
       key: "cosmologies",
       label: "Cosmologies",
-      singular: "Cosmology",
+      singular: "Faith",
       description: "Gods and who worships them.",
       icon: "orbits"
     }
